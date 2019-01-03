@@ -13,6 +13,8 @@
 /Users/mponomar/projects/md5/libft/header/ft_printf.h
 ../libft/header/get_next_line.h
 /Users/mponomar/projects/md5/libft/header/get_next_line.h
+fcntl.h
+-
 
 /Users/mponomar/projects/md5/libft/header/ft_printf.h
 stdarg.h
@@ -34,9 +36,23 @@ string.h
 stdlib.h
 -
 
+/Users/mponomar/projects/md5/src/console.c
+../includes/ft_ssl.h
+/Users/mponomar/projects/md5/includes/ft_ssl.h
+
+/Users/mponomar/projects/md5/src/initdata.c
+../includes/ft_ssl.h
+/Users/mponomar/projects/md5/includes/ft_ssl.h
+
 /Users/mponomar/projects/md5/src/main.c
 ../includes/ft_ssl.h
 /Users/mponomar/projects/md5/includes/ft_ssl.h
-stdio.h
-/Users/mponomar/projects/md5/src/stdio.h
+
+/Users/mponomar/projects/md5/src/parsing.c
+../includes/ft_ssl.h
+/Users/mponomar/projects/md5/includes/ft_ssl.h
+
+/Users/mponomar/projects/md5/src/print.c
+../includes/ft_ssl.h
+/Users/mponomar/projects/md5/includes/ft_ssl.h
 

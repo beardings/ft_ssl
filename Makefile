@@ -20,7 +20,11 @@ INC = includes/
 LIBFT = libft/
 FT_INC = $(LIBFT)/includes
 
-CMP =	main.o
+CMP =	main.o \
+        initdata.o \
+        console.o \
+        print.o \
+        parsing.o
 
 all: $(NAME)
 

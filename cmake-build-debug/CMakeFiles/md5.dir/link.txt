@@ -1,1 +1,1 @@
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/md5.dir/src/main.c.o  -o md5 
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/md5.dir/src/main.c.o CMakeFiles/md5.dir/src/initdata.c.o CMakeFiles/md5.dir/src/console.c.o CMakeFiles/md5.dir/src/print.c.o CMakeFiles/md5.dir/src/parsing.c.o  -o md5 

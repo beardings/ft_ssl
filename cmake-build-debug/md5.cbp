@@ -82,7 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/mponomar/projects/md5/libft/libft.a">
+			<Option target="md5"/>
+		</Unit>
+		<Unit filename="/Users/mponomar/projects/md5/src/console.c">
+			<Option target="md5"/>
+		</Unit>
+		<Unit filename="/Users/mponomar/projects/md5/src/initdata.c">
+			<Option target="md5"/>
+		</Unit>
 		<Unit filename="/Users/mponomar/projects/md5/src/main.c">
+			<Option target="md5"/>
+		</Unit>
+		<Unit filename="/Users/mponomar/projects/md5/src/parsing.c">
+			<Option target="md5"/>
+		</Unit>
+		<Unit filename="/Users/mponomar/projects/md5/src/print.c">
 			<Option target="md5"/>
 		</Unit>
 		<Unit filename="/Users/mponomar/projects/md5/CMakeLists.txt">

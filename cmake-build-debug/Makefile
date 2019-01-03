@@ -123,6 +123,60 @@ md5/fast:
 	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/build
 .PHONY : md5/fast
 
+src/console.o: src/console.c.o
+
+.PHONY : src/console.o
+
+# target to build an object file
+src/console.c.o:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/console.c.o
+.PHONY : src/console.c.o
+
+src/console.i: src/console.c.i
+
+.PHONY : src/console.i
+
+# target to preprocess a source file
+src/console.c.i:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/console.c.i
+.PHONY : src/console.c.i
+
+src/console.s: src/console.c.s
+
+.PHONY : src/console.s
+
+# target to generate assembly for a file
+src/console.c.s:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/console.c.s
+.PHONY : src/console.c.s
+
+src/initdata.o: src/initdata.c.o
+
+.PHONY : src/initdata.o
+
+# target to build an object file
+src/initdata.c.o:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/initdata.c.o
+.PHONY : src/initdata.c.o
+
+src/initdata.i: src/initdata.c.i
+
+.PHONY : src/initdata.i
+
+# target to preprocess a source file
+src/initdata.c.i:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/initdata.c.i
+.PHONY : src/initdata.c.i
+
+src/initdata.s: src/initdata.c.s
+
+.PHONY : src/initdata.s
+
+# target to generate assembly for a file
+src/initdata.c.s:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/initdata.c.s
+.PHONY : src/initdata.c.s
+
 src/main.o: src/main.c.o
 
 .PHONY : src/main.o
@@ -150,6 +204,60 @@ src/main.c.s:
 	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/parsing.o: src/parsing.c.o
+
+.PHONY : src/parsing.o
+
+# target to build an object file
+src/parsing.c.o:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/parsing.c.o
+.PHONY : src/parsing.c.o
+
+src/parsing.i: src/parsing.c.i
+
+.PHONY : src/parsing.i
+
+# target to preprocess a source file
+src/parsing.c.i:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/parsing.c.i
+.PHONY : src/parsing.c.i
+
+src/parsing.s: src/parsing.c.s
+
+.PHONY : src/parsing.s
+
+# target to generate assembly for a file
+src/parsing.c.s:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/parsing.c.s
+.PHONY : src/parsing.c.s
+
+src/print.o: src/print.c.o
+
+.PHONY : src/print.o
+
+# target to build an object file
+src/print.c.o:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/print.c.o
+.PHONY : src/print.c.o
+
+src/print.i: src/print.c.i
+
+.PHONY : src/print.i
+
+# target to preprocess a source file
+src/print.c.i:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/print.c.i
+.PHONY : src/print.c.i
+
+src/print.s: src/print.c.s
+
+.PHONY : src/print.s
+
+# target to generate assembly for a file
+src/print.c.s:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/print.c.s
+.PHONY : src/print.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... md5"
+	@echo "... src/console.o"
+	@echo "... src/console.i"
+	@echo "... src/console.s"
+	@echo "... src/initdata.o"
+	@echo "... src/initdata.i"
+	@echo "... src/initdata.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/parsing.o"
+	@echo "... src/parsing.i"
+	@echo "... src/parsing.s"
+	@echo "... src/print.o"
+	@echo "... src/print.i"
+	@echo "... src/print.s"
 .PHONY : help
 
 

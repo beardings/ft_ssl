@@ -70,17 +70,77 @@ CMakeFiles/md5.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/main.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/md5/src/main.c -o CMakeFiles/md5.dir/src/main.c.s
 
+CMakeFiles/md5.dir/src/initdata.c.o: CMakeFiles/md5.dir/flags.make
+CMakeFiles/md5.dir/src/initdata.c.o: ../src/initdata.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/md5.dir/src/initdata.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/initdata.c.o   -c /Users/mponomar/projects/md5/src/initdata.c
+
+CMakeFiles/md5.dir/src/initdata.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/initdata.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/md5/src/initdata.c > CMakeFiles/md5.dir/src/initdata.c.i
+
+CMakeFiles/md5.dir/src/initdata.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/initdata.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/md5/src/initdata.c -o CMakeFiles/md5.dir/src/initdata.c.s
+
+CMakeFiles/md5.dir/src/console.c.o: CMakeFiles/md5.dir/flags.make
+CMakeFiles/md5.dir/src/console.c.o: ../src/console.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/md5.dir/src/console.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/console.c.o   -c /Users/mponomar/projects/md5/src/console.c
+
+CMakeFiles/md5.dir/src/console.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/console.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/md5/src/console.c > CMakeFiles/md5.dir/src/console.c.i
+
+CMakeFiles/md5.dir/src/console.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/console.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/md5/src/console.c -o CMakeFiles/md5.dir/src/console.c.s
+
+CMakeFiles/md5.dir/src/print.c.o: CMakeFiles/md5.dir/flags.make
+CMakeFiles/md5.dir/src/print.c.o: ../src/print.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/md5.dir/src/print.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/print.c.o   -c /Users/mponomar/projects/md5/src/print.c
+
+CMakeFiles/md5.dir/src/print.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/print.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/md5/src/print.c > CMakeFiles/md5.dir/src/print.c.i
+
+CMakeFiles/md5.dir/src/print.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/print.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/md5/src/print.c -o CMakeFiles/md5.dir/src/print.c.s
+
+CMakeFiles/md5.dir/src/parsing.c.o: CMakeFiles/md5.dir/flags.make
+CMakeFiles/md5.dir/src/parsing.c.o: ../src/parsing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/md5.dir/src/parsing.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/parsing.c.o   -c /Users/mponomar/projects/md5/src/parsing.c
+
+CMakeFiles/md5.dir/src/parsing.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/parsing.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/md5/src/parsing.c > CMakeFiles/md5.dir/src/parsing.c.i
+
+CMakeFiles/md5.dir/src/parsing.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/parsing.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/md5/src/parsing.c -o CMakeFiles/md5.dir/src/parsing.c.s
+
 # Object files for target md5
 md5_OBJECTS = \
-"CMakeFiles/md5.dir/src/main.c.o"
+"CMakeFiles/md5.dir/src/main.c.o" \
+"CMakeFiles/md5.dir/src/initdata.c.o" \
+"CMakeFiles/md5.dir/src/console.c.o" \
+"CMakeFiles/md5.dir/src/print.c.o" \
+"CMakeFiles/md5.dir/src/parsing.c.o"
 
 # External object files for target md5
 md5_EXTERNAL_OBJECTS =
 
 md5: CMakeFiles/md5.dir/src/main.c.o
+md5: CMakeFiles/md5.dir/src/initdata.c.o
+md5: CMakeFiles/md5.dir/src/console.c.o
+md5: CMakeFiles/md5.dir/src/print.c.o
+md5: CMakeFiles/md5.dir/src/parsing.c.o
 md5: CMakeFiles/md5.dir/build.make
 md5: CMakeFiles/md5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mponomar/projects/md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable md5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mponomar/projects/md5/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable md5"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/md5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

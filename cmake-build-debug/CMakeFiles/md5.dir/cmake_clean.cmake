@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/md5.dir/src/main.c.o"
+  "CMakeFiles/md5.dir/src/initdata.c.o"
+  "CMakeFiles/md5.dir/src/console.c.o"
+  "CMakeFiles/md5.dir/src/print.c.o"
+  "CMakeFiles/md5.dir/src/parsing.c.o"
   "md5.pdb"
   "md5"
 )
