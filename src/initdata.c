@@ -1,6 +1,14 @@
-//
-// Created by Mykola Ponomarov on 03.01.2019.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   initdata.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/01/05 17:25:48 by mponomar          #+#    #+#             */
+/*   Updated: 2019/01/05 17:25:57 by mponomar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "../includes/ft_ssl.h"
 
@@ -20,11 +28,11 @@ void	set_hashes(void)
     sha256_hash[7] = 0x5BE0CD19;
 }
 
-t_ssl_md5 *init_struct(void)
+t_ssl *init_struct(void)
 {
-    t_ssl_md5 *ssl_md5;
+    t_ssl *ssl;
 
-    ssl_md5 = malloc(sizeof(t_ssl_md5));
-    ft_bzero(ssl_md5, sizeof(t_ssl_md5));
-    return ssl_md5;
+    ssl = malloc(sizeof(t_ssl));
+    ft_bzero(ssl, sizeof(t_ssl));
+    return ssl;
 }

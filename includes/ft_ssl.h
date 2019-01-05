@@ -10,21 +10,23 @@
 # include "../libft/header/get_next_line.h"
 # include <fcntl.h>
 
-# define COMANDS 2
+#define COMANDS 5
+# define FUNCTIONS 10
 
-# define FLAG_P 0x01
-# define FLAG_S 0x02
-# define FLAG_R 0x04
-# define FLAG_Q 0x08
 
-# define A g_hash_md5[0]
-# define B g_hash_md5[1]
-# define C g_hash_md5[2]
-# define D g_hash_md5[3]
-# define TMD5 g_table_md5
+# define P_FLAG 0x01
+# define S_FLAG 0x02
+# define R_FLAG 0x04
+# define Q_FLAG 0x08
+
+# define A md5_hash[0]
+# define B md5_hash[1]
+# define C md5_hash[2]
+# define D md5_hash[3]
+# define MD5T md5_table
 
 char			        	*comands[COMANDS] = {
-        "md5", "sha265"
+        "md5", "sha256", "sha512", "sha224", "sha384"
 };
 
 unsigned int				md5_hash[4];
@@ -69,7 +71,7 @@ static const unsigned int	sha256_table[64] = {
         0x90BEFFFA, 0xA4506CEB, 0xBEF9A3F7, 0xC67178F2
 };
 
-typedef struct			s_ssl_md5
+typedef struct			s_ssl
 {
     int					fd;
     char				*str;
@@ -79,17 +81,26 @@ typedef struct			s_ssl_md5
     unsigned char		md5_char[64];
     unsigned long int	size;
     char                data_f;
-}						t_ssl_md5;
+    char                usage_f;
+    char                flags;
+}						t_ssl;
 
-void				(*md5_func[COMANDS])(t_ssl_md5 *ssl_md5) = {
-        fd_md5, str_md5
+void				(*ssl_func[FUNCTIONS])(t_ssl *ssl) = {
+        fd_md5, str_md5, fd_sha256, str_sha256, fd_sha512, str_sha512, fd_sha224, str_sha224, fd_sha384, str_sha384
 };
 
-t_ssl_md5               *init_struct(void);
+t_ssl                   *init_struct(void);
 void                    set_hashes(void);
-void                    read_from_console(t_ssl_md5 *ssl_md5);
-void		            check_comand(t_ssl_md5 *ssl_md5, char *str);
+
 void		            print_usage(void);
 void	            	print_error(char *str);
+
+void                    read_from_console(t_ssl *ssl);
+void	                use_comand(t_ssl *ssl, char str);
+
+void				    parsing_flags(t_ssl *ssl, char **str, int *i);
+void		            check_comand(t_ssl *ssl, char *str);
+void	                check_file(t_ssl *ssl, char *file);
+void				    check_flags(t_ssl *ssl, char **argv, int *i);
 
 #endif
