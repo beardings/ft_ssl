@@ -6,29 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/mponomar/projects/md5/includes/ft_ssl.h
+/Users/mponomar/projects/ft_ssl/includes/ft_ssl.h
 ../libft/header/libft.h
-/Users/mponomar/projects/md5/libft/header/libft.h
+/Users/mponomar/projects/ft_ssl/libft/header/libft.h
 ../libft/header/ft_printf.h
-/Users/mponomar/projects/md5/libft/header/ft_printf.h
+/Users/mponomar/projects/ft_ssl/libft/header/ft_printf.h
 ../libft/header/get_next_line.h
-/Users/mponomar/projects/md5/libft/header/get_next_line.h
+/Users/mponomar/projects/ft_ssl/libft/header/get_next_line.h
 fcntl.h
 -
 
-/Users/mponomar/projects/md5/libft/header/ft_printf.h
+/Users/mponomar/projects/ft_ssl/libft/header/ft_printf.h
 stdarg.h
 -
 libft.h
-/Users/mponomar/projects/md5/libft/header/libft.h
+/Users/mponomar/projects/ft_ssl/libft/header/libft.h
 
-/Users/mponomar/projects/md5/libft/header/get_next_line.h
+/Users/mponomar/projects/ft_ssl/libft/header/get_next_line.h
 fcntl.h
 -
 libft.h
-/Users/mponomar/projects/md5/libft/header/libft.h
+/Users/mponomar/projects/ft_ssl/libft/header/libft.h
 
-/Users/mponomar/projects/md5/libft/header/libft.h
+/Users/mponomar/projects/ft_ssl/libft/header/libft.h
 unistd.h
 -
 string.h
@@ -36,23 +36,7 @@ string.h
 stdlib.h
 -
 
-/Users/mponomar/projects/md5/src/console.c
+/Users/mponomar/projects/ft_ssl/src/parsing.c
 ../includes/ft_ssl.h
-/Users/mponomar/projects/md5/includes/ft_ssl.h
-
-/Users/mponomar/projects/md5/src/initdata.c
-../includes/ft_ssl.h
-/Users/mponomar/projects/md5/includes/ft_ssl.h
-
-/Users/mponomar/projects/md5/src/main.c
-../includes/ft_ssl.h
-/Users/mponomar/projects/md5/includes/ft_ssl.h
-
-/Users/mponomar/projects/md5/src/parsing.c
-../includes/ft_ssl.h
-/Users/mponomar/projects/md5/includes/ft_ssl.h
-
-/Users/mponomar/projects/md5/src/print.c
-../includes/ft_ssl.h
-/Users/mponomar/projects/md5/includes/ft_ssl.h
+/Users/mponomar/projects/ft_ssl/includes/ft_ssl.h
 

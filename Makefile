@@ -24,7 +24,10 @@ CMP =	main.o \
         initdata.o \
         console.o \
         print.o \
-        parsing.o
+        parsing.o \
+        custom_func.o \
+        wiki_md5.o \
+        md5_logic.o
 
 all: $(NAME)
 

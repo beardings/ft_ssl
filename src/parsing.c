@@ -25,27 +25,46 @@ void	s_flag(t_ssl *ssl, char **str, int *i)
         ssl->str = ft_strdup(&str[*i][j]);
     if (!str[*i])
     {
-        ft_printf("md5 -s");
+        ft_printf("md5: option requires an argument -- s\n");
+        print_usage();
         ssl->usage_f = 1;
     }
-    else
+    else {
+        ssl->flags = S_FLAG;
         use_comand(ssl, 1);
+    }
     (ssl->str) ? free(ssl->str) : 0;
 }
 
+
 void	p_flag(t_ssl *ssl)
 {
+    ssl->str = ft_strdup("");
     if (ssl->flags & P_FLAG)
-    {
-        ssl->str = ft_strdup("");
         use_comand(ssl, 1);
-        free(ssl->str);
-    }
     else
     {
+        ssl->flags += P_FLAG;
         use_comand(ssl, 0);
-        ssl->flags+= P_FLAG;
+        if (ssl->flags & Q_FLAG || ssl->flags & R_FLAG)
+        {
+            free(ssl->str);
+            set_hashes();
+            ssl->str = ft_strdup("");
+            use_comand(ssl, 1);
+        }
     }
+    (ssl->str) ? free(ssl->str) : 0;
+}
+
+void	flag_q_r(t_ssl *ssl, char flag)
+{
+    if (flag == 'r')
+        ssl->flags += R_FLAG;
+    else
+        ssl->flags += Q_FLAG;
+    if (ssl->flags & P_FLAG)
+        p_flag(ssl);
 }
 
 void				check_flags(t_ssl *ssl, char **str, int *i)
@@ -55,10 +74,9 @@ void				check_flags(t_ssl *ssl, char **str, int *i)
     j = 0;
     while (str[(*i)][++j])
     {
-        if (str[(*i)][j] == 'r' && !(ssl->flags & P_FLAG))
-            ssl->flags += R_FLAG;
-        else if (str[(*i)][j] == 'q' && !(ssl->flags & P_FLAG))
-            ssl->flags += Q_FLAG;
+        if ((str[(*i)][j] == 'r' && !(ssl->flags & R_FLAG))
+            || (str[(*i)][j] == 'q' && !(ssl->flags & Q_FLAG)))
+            flag_q_r(ssl, str[(*i)][j]);
         else if (str[(*i)][j] == 'p')
             p_flag(ssl);
         else if (str[(*i)][j] == 's')
@@ -84,13 +102,17 @@ void	check_file(t_ssl *ssl, char *file)
     ssl->fd = open(file, O_RDONLY);
     ssl->data_f = 1;
     if (ssl->fd < 0)
-        ft_printf("Error: Can't open file!\n");
+        ft_printf("md5: %s: No such file or directory!\n", file);
     else
     {
         if (read(ssl->fd, &buf[0], 0) < 0)
-            ft_printf("Error: {yellow}Can't read file!\n");
+            ft_printf("md5: %s: Can't read file or directory!\n", file);
         else
+        {
+            ssl->str = ft_strdup(file);
             use_comand(ssl, 0);
+            free(ssl->str);
+        }
         close(ssl->fd);
     }
 }

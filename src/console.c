@@ -18,8 +18,10 @@ void				parsing_flags(t_ssl *ssl, char **str, int *i)
         return ;
     while (str[*i] && str[++(*i)])
     {
-        if (str[*i][0] == '-')
+        if (str[*i][0] == '-' && str[*i][1])
             check_flags(ssl, str, i);
+        else if (str[*i][0] == '-' && !str[*i][1])
+            ssl->usage_f = 1;
         else
             check_file(ssl, str[*i]);
         set_hashes();
@@ -40,7 +42,6 @@ void	use_comand(t_ssl *ssl, char str)
                 ssl_func[i * 2](ssl);
             else
                 ssl_func[(i * 2) + 1](ssl);
-
             return ;
         }
         i++;
@@ -81,3 +82,17 @@ void read_from_console(t_ssl *ssl)
         ft_printf("OpenSSL> ");
     }
 }
+
+void read_from_argv(t_ssl *ssl, char **argv)
+{
+    int i;
+
+    i = 1;
+    if (argv && argv[1])
+        check_comand(ssl, argv[1]);
+    if (ssl->comand && argv && argv[2])
+        parsing_flags(ssl, argv, &i);
+    else if (ssl->comand)
+        use_comand(ssl, 0);
+}
+

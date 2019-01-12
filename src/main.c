@@ -12,6 +12,15 @@
 
 #include "../includes/ft_ssl.h"
 
+/*
+** -p : Читает из INPUT и выводит то что считал и хэш
+** -s : Читает следущий аргумент для хэширования
+** "MD5 ("text") = hash\n"
+** "SHA256 ("text") = hash\n"
+** -r : Вначале хэш, потом имя файла или текст
+** -q : Выводит только хэш и имеет приоритет перед
+*/
+
 int		main(int argc, char **argv)
 {
     t_ssl *ssl;
@@ -21,6 +30,6 @@ int		main(int argc, char **argv)
     if (argc == 1)
         read_from_console(ssl);
     else
-        argv = NULL;
+        read_from_argv(ssl, argv);
     return (0);
 }

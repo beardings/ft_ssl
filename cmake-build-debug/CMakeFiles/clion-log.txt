@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/mponomar/projects/md5
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/mponomar/projects/ft_ssl
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/mponomar/projects/md5/cmake-build-debug
+-- Build files have been written to: /Users/mponomar/projects/ft_ssl/cmake-build-debug

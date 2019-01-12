@@ -3,9 +3,79 @@ project(md5)
 
 set(CMAKE_CXX_STANDARD 98)
 
-add_executable(md5 libft/libft.a
+add_executable(md5
+        libft/libft/ft_bzero.c
+        libft/libft/ft_memalloc.c
+        libft/libft/ft_memccpy.c
+        libft/libft/ft_memcpy.c
+        libft/libft/ft_memset.c
+        libft/libft/ft_strdup.c
+        libft/libft/ft_strjoin.c
+        libft/libft/ft_strlen.c
+        libft/libft/ft_strsplit.c
+        libft/get_next_line/get_next_line.c
+        libft/libft/ft_strnew.c
+        libft/libft/ft_hz.c
+        libft/libft/ft_newsize.c
+        libft/ft_printf/ft_printf.c
+        libft/libft/ft_strcat.c
+        libft/libft/ft_strchr.c
+        libft/libft/ft_strclr.c
+        libft/libft/ft_strcpy.c
+        libft/libft/ft_strncpy.c
+        libft/libft/ft_strsub.c
+        libft/ft_printf/createres.c
+        libft/ft_printf/searcharg.c
+        libft/ft_printf/do_format.c
+        libft/ft_printf/startformat.c
+        libft/ft_printf/upperarg.c
+        libft/ft_printf/writewidth.c
+        libft/ft_printf/writezero.c
+        libft/ft_printf/cast_standart_for_base.c
+        libft/ft_printf/castflag_bigc.c
+        libft/ft_printf/castflag_bigs.c
+        libft/ft_printf/cast_mod.c
+        libft/ft_printf/minusmissing.c
+        libft/ft_printf/minuspresent.c
+        libft/ft_printf/numnull.c
+        libft/ft_printf/writewchar_t.c
+        libft/ft_printf/writepress.c
+        libft/ft_printf/utflen.c
+        libft/libft/ft_putnbr.c
+        libft/libft/ft_lenint.c
+        libft/libft/ft_putchar.c
+        libft/libft/ft_atoi.c
+        libft/ft_printf/ft_null.c
+        libft/ft_printf/dowchar_t.c
+        libft/libft/ft_putchar_fd.c
+        libft/ft_printf/castflag_c.c
+        libft/ft_printf/castflag_s.c
+        libft/ft_printf/cast_mod_base.c
+        libft/libft/ft_putstr.c
+        libft/ft_printf/printhesh.c
+        libft/ft_printf/preox.c
+        libft/ft_printf/castpress_s.c
+        libft/ft_printf/castpress_bigs.c
+        libft/ft_printf/base.c
+        libft/ft_printf/cast_mod_b.c
+        libft/ft_printf/cast_mod_cont.c
+        libft/ft_printf/cast_nnnnn.c
+        libft/ft_printf/cast_mod_contn.c
+        libft/ft_printf/ft_itoa_base.c
+        libft/ft_printf/otherutf.c
+        libft/ft_printf/cast_mod_next.c
+        libft/ft_printf/cast_modnex.c
+        libft/ft_printf/checkcan.c
+        libft/ft_printf/checktype.c
+        libft/ft_printf/cast_mod_contnext.c
+        libft/libft/ft_putnbr_fd.c
+        libft/ft_printf/ft_putstrnew.c
+
         src/main.c
         src/initdata.c
         src/console.c
         src/print.c
-        src/parsing.c)
+        src/parsing.c
+        src/custom_func.c
+        src/wiki_md5.c
+        src/md5_logic.c)
