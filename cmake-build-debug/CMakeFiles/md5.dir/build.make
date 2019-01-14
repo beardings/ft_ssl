@@ -915,9 +915,22 @@ CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/ft_putstrnew.c -o CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.s
 
+CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.o: CMakeFiles/md5.dir/flags.make
+CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.o: ../libft/libft/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_strcmp.c
+
+CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_strcmp.c > CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.i
+
+CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_strcmp.c -o CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.s
+
 CMakeFiles/md5.dir/src/main.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/md5.dir/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/md5.dir/src/main.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/main.c.o   -c /Users/mponomar/projects/ft_ssl/src/main.c
 
 CMakeFiles/md5.dir/src/main.c.i: cmake_force
@@ -930,7 +943,7 @@ CMakeFiles/md5.dir/src/main.c.s: cmake_force
 
 CMakeFiles/md5.dir/src/initdata.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/src/initdata.c.o: ../src/initdata.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/md5.dir/src/initdata.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/md5.dir/src/initdata.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/initdata.c.o   -c /Users/mponomar/projects/ft_ssl/src/initdata.c
 
 CMakeFiles/md5.dir/src/initdata.c.i: cmake_force
@@ -943,7 +956,7 @@ CMakeFiles/md5.dir/src/initdata.c.s: cmake_force
 
 CMakeFiles/md5.dir/src/console.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/src/console.c.o: ../src/console.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/md5.dir/src/console.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/md5.dir/src/console.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/console.c.o   -c /Users/mponomar/projects/ft_ssl/src/console.c
 
 CMakeFiles/md5.dir/src/console.c.i: cmake_force
@@ -956,7 +969,7 @@ CMakeFiles/md5.dir/src/console.c.s: cmake_force
 
 CMakeFiles/md5.dir/src/print.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/src/print.c.o: ../src/print.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/md5.dir/src/print.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/md5.dir/src/print.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/print.c.o   -c /Users/mponomar/projects/ft_ssl/src/print.c
 
 CMakeFiles/md5.dir/src/print.c.i: cmake_force
@@ -969,7 +982,7 @@ CMakeFiles/md5.dir/src/print.c.s: cmake_force
 
 CMakeFiles/md5.dir/src/parsing.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/src/parsing.c.o: ../src/parsing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/md5.dir/src/parsing.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/md5.dir/src/parsing.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/parsing.c.o   -c /Users/mponomar/projects/ft_ssl/src/parsing.c
 
 CMakeFiles/md5.dir/src/parsing.c.i: cmake_force
@@ -982,7 +995,7 @@ CMakeFiles/md5.dir/src/parsing.c.s: cmake_force
 
 CMakeFiles/md5.dir/src/custom_func.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/src/custom_func.c.o: ../src/custom_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/md5.dir/src/custom_func.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/md5.dir/src/custom_func.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/custom_func.c.o   -c /Users/mponomar/projects/ft_ssl/src/custom_func.c
 
 CMakeFiles/md5.dir/src/custom_func.c.i: cmake_force
@@ -995,7 +1008,7 @@ CMakeFiles/md5.dir/src/custom_func.c.s: cmake_force
 
 CMakeFiles/md5.dir/src/wiki_md5.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/src/wiki_md5.c.o: ../src/wiki_md5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/md5.dir/src/wiki_md5.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/md5.dir/src/wiki_md5.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/wiki_md5.c.o   -c /Users/mponomar/projects/ft_ssl/src/wiki_md5.c
 
 CMakeFiles/md5.dir/src/wiki_md5.c.i: cmake_force
@@ -1008,7 +1021,7 @@ CMakeFiles/md5.dir/src/wiki_md5.c.s: cmake_force
 
 CMakeFiles/md5.dir/src/md5_logic.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/src/md5_logic.c.o: ../src/md5_logic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/md5.dir/src/md5_logic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/md5.dir/src/md5_logic.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/md5_logic.c.o   -c /Users/mponomar/projects/ft_ssl/src/md5_logic.c
 
 CMakeFiles/md5.dir/src/md5_logic.c.i: cmake_force
@@ -1018,6 +1031,32 @@ CMakeFiles/md5.dir/src/md5_logic.c.i: cmake_force
 CMakeFiles/md5.dir/src/md5_logic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/md5_logic.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/src/md5_logic.c -o CMakeFiles/md5.dir/src/md5_logic.c.s
+
+CMakeFiles/md5.dir/src/sha256_wiki.c.o: CMakeFiles/md5.dir/flags.make
+CMakeFiles/md5.dir/src/sha256_wiki.c.o: ../src/sha256_wiki.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/md5.dir/src/sha256_wiki.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/sha256_wiki.c.o   -c /Users/mponomar/projects/ft_ssl/src/sha256_wiki.c
+
+CMakeFiles/md5.dir/src/sha256_wiki.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/sha256_wiki.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/src/sha256_wiki.c > CMakeFiles/md5.dir/src/sha256_wiki.c.i
+
+CMakeFiles/md5.dir/src/sha256_wiki.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/sha256_wiki.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/src/sha256_wiki.c -o CMakeFiles/md5.dir/src/sha256_wiki.c.s
+
+CMakeFiles/md5.dir/src/sha256_logic.c.o: CMakeFiles/md5.dir/flags.make
+CMakeFiles/md5.dir/src/sha256_logic.c.o: ../src/sha256_logic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/md5.dir/src/sha256_logic.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/sha256_logic.c.o   -c /Users/mponomar/projects/ft_ssl/src/sha256_logic.c
+
+CMakeFiles/md5.dir/src/sha256_logic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/sha256_logic.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/src/sha256_logic.c > CMakeFiles/md5.dir/src/sha256_logic.c.i
+
+CMakeFiles/md5.dir/src/sha256_logic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/sha256_logic.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/src/sha256_logic.c -o CMakeFiles/md5.dir/src/sha256_logic.c.s
 
 # Object files for target md5
 md5_OBJECTS = \
@@ -1087,6 +1126,7 @@ md5_OBJECTS = \
 "CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contnext.c.o" \
 "CMakeFiles/md5.dir/libft/libft/ft_putnbr_fd.c.o" \
 "CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.o" \
+"CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.o" \
 "CMakeFiles/md5.dir/src/main.c.o" \
 "CMakeFiles/md5.dir/src/initdata.c.o" \
 "CMakeFiles/md5.dir/src/console.c.o" \
@@ -1094,7 +1134,9 @@ md5_OBJECTS = \
 "CMakeFiles/md5.dir/src/parsing.c.o" \
 "CMakeFiles/md5.dir/src/custom_func.c.o" \
 "CMakeFiles/md5.dir/src/wiki_md5.c.o" \
-"CMakeFiles/md5.dir/src/md5_logic.c.o"
+"CMakeFiles/md5.dir/src/md5_logic.c.o" \
+"CMakeFiles/md5.dir/src/sha256_wiki.c.o" \
+"CMakeFiles/md5.dir/src/sha256_logic.c.o"
 
 # External object files for target md5
 md5_EXTERNAL_OBJECTS =
@@ -1165,6 +1207,7 @@ md5: CMakeFiles/md5.dir/libft/ft_printf/checktype.c.o
 md5: CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contnext.c.o
 md5: CMakeFiles/md5.dir/libft/libft/ft_putnbr_fd.c.o
 md5: CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.o
+md5: CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.o
 md5: CMakeFiles/md5.dir/src/main.c.o
 md5: CMakeFiles/md5.dir/src/initdata.c.o
 md5: CMakeFiles/md5.dir/src/console.c.o
@@ -1173,9 +1216,11 @@ md5: CMakeFiles/md5.dir/src/parsing.c.o
 md5: CMakeFiles/md5.dir/src/custom_func.c.o
 md5: CMakeFiles/md5.dir/src/wiki_md5.c.o
 md5: CMakeFiles/md5.dir/src/md5_logic.c.o
+md5: CMakeFiles/md5.dir/src/sha256_wiki.c.o
+md5: CMakeFiles/md5.dir/src/sha256_logic.c.o
 md5: CMakeFiles/md5.dir/build.make
 md5: CMakeFiles/md5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Linking C executable md5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Linking C executable md5"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/md5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

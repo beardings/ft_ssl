@@ -259,6 +259,9 @@
 		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_strclr.c">
 			<Option target="md5"/>
 		</Unit>
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_strcmp.c">
+			<Option target="md5"/>
+		</Unit>
 		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_strcpy.c">
 			<Option target="md5"/>
 		</Unit>
@@ -302,6 +305,12 @@
 			<Option target="md5"/>
 		</Unit>
 		<Unit filename="/Users/mponomar/projects/ft_ssl/src/print.c">
+			<Option target="md5"/>
+		</Unit>
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/sha256_logic.c">
+			<Option target="md5"/>
+		</Unit>
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/sha256_wiki.c">
 			<Option target="md5"/>
 		</Unit>
 		<Unit filename="/Users/mponomar/projects/ft_ssl/src/wiki_md5.c">

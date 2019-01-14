@@ -36,7 +36,7 @@ string.h
 stdlib.h
 -
 
-/Users/mponomar/projects/ft_ssl/src/parsing.c
+/Users/mponomar/projects/ft_ssl/src/custom_func.c
 ../includes/ft_ssl.h
 /Users/mponomar/projects/ft_ssl/includes/ft_ssl.h
 

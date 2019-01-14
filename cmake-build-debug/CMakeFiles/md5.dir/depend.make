@@ -215,6 +215,8 @@ CMakeFiles/md5.dir/libft/libft/ft_strchr.c.o: ../libft/libft/libft.h
 CMakeFiles/md5.dir/libft/libft/ft_strclr.c.o: ../libft/libft/ft_strclr.c
 CMakeFiles/md5.dir/libft/libft/ft_strclr.c.o: ../libft/libft/libft.h
 
+CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.o: ../libft/libft/ft_strcmp.c
+
 CMakeFiles/md5.dir/libft/libft/ft_strcpy.c.o: ../libft/header/libft.h
 CMakeFiles/md5.dir/libft/libft/ft_strcpy.c.o: ../libft/libft/ft_strcpy.c
 
@@ -280,6 +282,18 @@ CMakeFiles/md5.dir/src/print.c.o: ../libft/header/ft_printf.h
 CMakeFiles/md5.dir/src/print.c.o: ../libft/header/get_next_line.h
 CMakeFiles/md5.dir/src/print.c.o: ../libft/header/libft.h
 CMakeFiles/md5.dir/src/print.c.o: ../src/print.c
+
+CMakeFiles/md5.dir/src/sha256_logic.c.o: ../includes/ft_ssl.h
+CMakeFiles/md5.dir/src/sha256_logic.c.o: ../libft/header/ft_printf.h
+CMakeFiles/md5.dir/src/sha256_logic.c.o: ../libft/header/get_next_line.h
+CMakeFiles/md5.dir/src/sha256_logic.c.o: ../libft/header/libft.h
+CMakeFiles/md5.dir/src/sha256_logic.c.o: ../src/sha256_logic.c
+
+CMakeFiles/md5.dir/src/sha256_wiki.c.o: ../includes/ft_ssl.h
+CMakeFiles/md5.dir/src/sha256_wiki.c.o: ../libft/header/ft_printf.h
+CMakeFiles/md5.dir/src/sha256_wiki.c.o: ../libft/header/get_next_line.h
+CMakeFiles/md5.dir/src/sha256_wiki.c.o: ../libft/header/libft.h
+CMakeFiles/md5.dir/src/sha256_wiki.c.o: ../src/sha256_wiki.c
 
 CMakeFiles/md5.dir/src/wiki_md5.c.o: ../includes/ft_ssl.h
 CMakeFiles/md5.dir/src/wiki_md5.c.o: ../libft/header/ft_printf.h

@@ -62,6 +62,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/mponomar/projects/ft_ssl/libft/libft/ft_strcat.c" "/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles/md5.dir/libft/libft/ft_strcat.c.o"
   "/Users/mponomar/projects/ft_ssl/libft/libft/ft_strchr.c" "/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles/md5.dir/libft/libft/ft_strchr.c.o"
   "/Users/mponomar/projects/ft_ssl/libft/libft/ft_strclr.c" "/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles/md5.dir/libft/libft/ft_strclr.c.o"
+  "/Users/mponomar/projects/ft_ssl/libft/libft/ft_strcmp.c" "/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.o"
   "/Users/mponomar/projects/ft_ssl/libft/libft/ft_strcpy.c" "/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles/md5.dir/libft/libft/ft_strcpy.c.o"
   "/Users/mponomar/projects/ft_ssl/libft/libft/ft_strdup.c" "/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles/md5.dir/libft/libft/ft_strdup.c.o"
   "/Users/mponomar/projects/ft_ssl/libft/libft/ft_strjoin.c" "/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles/md5.dir/libft/libft/ft_strjoin.c.o"
@@ -77,6 +78,8 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/mponomar/projects/ft_ssl/src/md5_logic.c" "/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles/md5.dir/src/md5_logic.c.o"
   "/Users/mponomar/projects/ft_ssl/src/parsing.c" "/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles/md5.dir/src/parsing.c.o"
   "/Users/mponomar/projects/ft_ssl/src/print.c" "/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles/md5.dir/src/print.c.o"
+  "/Users/mponomar/projects/ft_ssl/src/sha256_logic.c" "/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles/md5.dir/src/sha256_logic.c.o"
+  "/Users/mponomar/projects/ft_ssl/src/sha256_wiki.c" "/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles/md5.dir/src/sha256_wiki.c.o"
   "/Users/mponomar/projects/ft_ssl/src/wiki_md5.c" "/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles/md5.dir/src/wiki_md5.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

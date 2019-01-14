@@ -1689,6 +1689,33 @@ libft/libft/ft_strclr.c.s:
 	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/libft/libft/ft_strclr.c.s
 .PHONY : libft/libft/ft_strclr.c.s
 
+libft/libft/ft_strcmp.o: libft/libft/ft_strcmp.c.o
+
+.PHONY : libft/libft/ft_strcmp.o
+
+# target to build an object file
+libft/libft/ft_strcmp.c.o:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.o
+.PHONY : libft/libft/ft_strcmp.c.o
+
+libft/libft/ft_strcmp.i: libft/libft/ft_strcmp.c.i
+
+.PHONY : libft/libft/ft_strcmp.i
+
+# target to preprocess a source file
+libft/libft/ft_strcmp.c.i:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.i
+.PHONY : libft/libft/ft_strcmp.c.i
+
+libft/libft/ft_strcmp.s: libft/libft/ft_strcmp.c.s
+
+.PHONY : libft/libft/ft_strcmp.s
+
+# target to generate assembly for a file
+libft/libft/ft_strcmp.c.s:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.s
+.PHONY : libft/libft/ft_strcmp.c.s
+
 libft/libft/ft_strcpy.o: libft/libft/ft_strcpy.c.o
 
 .PHONY : libft/libft/ft_strcpy.o
@@ -2094,6 +2121,60 @@ src/print.c.s:
 	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/print.c.s
 .PHONY : src/print.c.s
 
+src/sha256_logic.o: src/sha256_logic.c.o
+
+.PHONY : src/sha256_logic.o
+
+# target to build an object file
+src/sha256_logic.c.o:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha256_logic.c.o
+.PHONY : src/sha256_logic.c.o
+
+src/sha256_logic.i: src/sha256_logic.c.i
+
+.PHONY : src/sha256_logic.i
+
+# target to preprocess a source file
+src/sha256_logic.c.i:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha256_logic.c.i
+.PHONY : src/sha256_logic.c.i
+
+src/sha256_logic.s: src/sha256_logic.c.s
+
+.PHONY : src/sha256_logic.s
+
+# target to generate assembly for a file
+src/sha256_logic.c.s:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha256_logic.c.s
+.PHONY : src/sha256_logic.c.s
+
+src/sha256_wiki.o: src/sha256_wiki.c.o
+
+.PHONY : src/sha256_wiki.o
+
+# target to build an object file
+src/sha256_wiki.c.o:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha256_wiki.c.o
+.PHONY : src/sha256_wiki.c.o
+
+src/sha256_wiki.i: src/sha256_wiki.c.i
+
+.PHONY : src/sha256_wiki.i
+
+# target to preprocess a source file
+src/sha256_wiki.c.i:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha256_wiki.c.i
+.PHONY : src/sha256_wiki.c.i
+
+src/sha256_wiki.s: src/sha256_wiki.c.s
+
+.PHONY : src/sha256_wiki.s
+
+# target to generate assembly for a file
+src/sha256_wiki.c.s:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha256_wiki.c.s
+.PHONY : src/sha256_wiki.c.s
+
 src/wiki_md5.o: src/wiki_md5.c.o
 
 .PHONY : src/wiki_md5.o
@@ -2304,6 +2385,9 @@ help:
 	@echo "... libft/libft/ft_strclr.o"
 	@echo "... libft/libft/ft_strclr.i"
 	@echo "... libft/libft/ft_strclr.s"
+	@echo "... libft/libft/ft_strcmp.o"
+	@echo "... libft/libft/ft_strcmp.i"
+	@echo "... libft/libft/ft_strcmp.s"
 	@echo "... libft/libft/ft_strcpy.o"
 	@echo "... libft/libft/ft_strcpy.i"
 	@echo "... libft/libft/ft_strcpy.s"
@@ -2349,6 +2433,12 @@ help:
 	@echo "... src/print.o"
 	@echo "... src/print.i"
 	@echo "... src/print.s"
+	@echo "... src/sha256_logic.o"
+	@echo "... src/sha256_logic.i"
+	@echo "... src/sha256_logic.s"
+	@echo "... src/sha256_wiki.o"
+	@echo "... src/sha256_wiki.i"
+	@echo "... src/sha256_wiki.s"
 	@echo "... src/wiki_md5.o"
 	@echo "... src/wiki_md5.i"
 	@echo "... src/wiki_md5.s"

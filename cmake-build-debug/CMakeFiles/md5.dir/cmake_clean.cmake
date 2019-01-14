@@ -65,6 +65,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contnext.c.o"
   "CMakeFiles/md5.dir/libft/libft/ft_putnbr_fd.c.o"
   "CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.o"
+  "CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.o"
   "CMakeFiles/md5.dir/src/main.c.o"
   "CMakeFiles/md5.dir/src/initdata.c.o"
   "CMakeFiles/md5.dir/src/console.c.o"
@@ -73,6 +74,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/md5.dir/src/custom_func.c.o"
   "CMakeFiles/md5.dir/src/wiki_md5.c.o"
   "CMakeFiles/md5.dir/src/md5_logic.c.o"
+  "CMakeFiles/md5.dir/src/sha256_wiki.c.o"
+  "CMakeFiles/md5.dir/src/sha256_logic.c.o"
   "md5.pdb"
   "md5"
 )

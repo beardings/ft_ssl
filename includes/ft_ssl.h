@@ -10,13 +10,13 @@
 # include "../libft/header/get_next_line.h"
 # include <fcntl.h>
 
-#define COMANDS 1 // 5
-# define FUNCTIONS 2 // 10
+#define COMANDS 2 // 5
+# define FUNCTIONS 4 // 10
 
-# define P_FLAG 0x01
-# define S_FLAG 0x02
-# define R_FLAG 0x04
-# define Q_FLAG 0x08
+# define P_FLAG 1
+# define S_FLAG 2
+# define R_FLAG 4
+# define Q_FLAG 8
 
 # define A md5_hash[0]
 # define B md5_hash[1]
@@ -25,7 +25,7 @@
 # define MD5T md5_table
 
 static char			        	*comands[COMANDS] = {
-        "md5"//, "sha256"/*, "sha512", "sha224", "sha384"*/
+        "md5", "sha256"/*, "sha512", "sha224", "sha384"*/
 };
 
 unsigned int				md5_hash[4];
@@ -75,7 +75,7 @@ typedef struct			s_ssl
     int					fd;
     char				*str;
     char				*line;
-    char				comand;
+    char			    comand;
     unsigned int		input_int[16];
     unsigned char		input_char[64];
     unsigned long int	size;
@@ -89,6 +89,10 @@ void                    set_hashes(void);
 
 void		            print_usage(void);
 void	            	print_error(char *str);
+void                    print_argument(t_ssl *ssl);
+void                    print_option(char c, t_ssl *ssl);
+void                    print_error_fd(char *file, t_ssl *ssl);
+void                    print_error_file(char *file, t_ssl *ssl);
 
 void                    read_from_argv(t_ssl *ssl, char **argv);
 void                    read_from_console(t_ssl *ssl);
@@ -101,8 +105,8 @@ void				    check_flags(t_ssl *ssl, char **argv, int *i);
 
 void                    fd_md5(t_ssl *ssl);
 void                    str_md5(t_ssl *ssl);
-//void                    fd_sha256(t_ssl *ssl);
-//void                    str_sha256(t_ssl *ssl);
+void                    fd_sha256(t_ssl *ssl);
+void                    str_sha256(t_ssl *ssl);
 //void                    fd_sha512(t_ssl *ssl);
 //void                    str_sha512(t_ssl *ssl);
 //void                    fd_sha224(t_ssl *ssl);
@@ -111,13 +115,18 @@ void                    str_md5(t_ssl *ssl);
 //void                    str_sha384(t_ssl *ssl);
 
 void				    md5_wiki(t_ssl *ssl);
-void				    read_again(t_ssl *ssl);
+void	                sha256_wiki(t_ssl *ssl);
+
 void	                print_md5(t_ssl *ssl);
-unsigned int	    	reverse_bytes(const unsigned int x, const char bytes);
+void	                print_sha256(t_ssl *ssl);
+
+unsigned int            reverse_bytes(const unsigned int x, const char bytes);
 char			        *i_base(uintmax_t n, short int base);
+void				    read_again(t_ssl *ssl);
+void		            swipe(unsigned long int *size);
 
 static void				    (*ssl_func[FUNCTIONS])(t_ssl *ssl) = {
-        fd_md5, str_md5//, fd_sha256, str_sha256/*, fd_sha512, str_sha512, fd_sha224, str_sha224, fd_sha384, str_sha384*/
+        fd_md5, str_md5, fd_sha256, str_sha256/*, fd_sha512, str_sha512, fd_sha224, str_sha224, fd_sha384, str_sha384*/
 };
 
 #endif

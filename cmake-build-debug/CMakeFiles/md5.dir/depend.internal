@@ -215,6 +215,8 @@ CMakeFiles/md5.dir/libft/libft/ft_strchr.c.o
 CMakeFiles/md5.dir/libft/libft/ft_strclr.c.o
  /Users/mponomar/projects/ft_ssl/libft/libft/ft_strclr.c
  /Users/mponomar/projects/ft_ssl/libft/libft/libft.h
+CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.o
+ /Users/mponomar/projects/ft_ssl/libft/libft/ft_strcmp.c
 CMakeFiles/md5.dir/libft/libft/ft_strcpy.c.o
  /Users/mponomar/projects/ft_ssl/libft/header/libft.h
  /Users/mponomar/projects/ft_ssl/libft/libft/ft_strcpy.c
@@ -281,6 +283,18 @@ CMakeFiles/md5.dir/src/print.c.o
  /Users/mponomar/projects/ft_ssl/libft/header/get_next_line.h
  /Users/mponomar/projects/ft_ssl/libft/header/libft.h
  /Users/mponomar/projects/ft_ssl/src/print.c
+CMakeFiles/md5.dir/src/sha256_logic.c.o
+ /Users/mponomar/projects/ft_ssl/includes/ft_ssl.h
+ /Users/mponomar/projects/ft_ssl/libft/header/ft_printf.h
+ /Users/mponomar/projects/ft_ssl/libft/header/get_next_line.h
+ /Users/mponomar/projects/ft_ssl/libft/header/libft.h
+ /Users/mponomar/projects/ft_ssl/src/sha256_logic.c
+CMakeFiles/md5.dir/src/sha256_wiki.c.o
+ /Users/mponomar/projects/ft_ssl/includes/ft_ssl.h
+ /Users/mponomar/projects/ft_ssl/libft/header/ft_printf.h
+ /Users/mponomar/projects/ft_ssl/libft/header/get_next_line.h
+ /Users/mponomar/projects/ft_ssl/libft/header/libft.h
+ /Users/mponomar/projects/ft_ssl/src/sha256_wiki.c
 CMakeFiles/md5.dir/src/wiki_md5.c.o
  /Users/mponomar/projects/ft_ssl/includes/ft_ssl.h
  /Users/mponomar/projects/ft_ssl/libft/header/ft_printf.h

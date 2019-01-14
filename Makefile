@@ -27,13 +27,15 @@ CMP =	main.o \
         parsing.o \
         custom_func.o \
         wiki_md5.o \
-        md5_logic.o
+        md5_logic.o \
+        sha256_wiki.o \
+        sha256_logic.o
 
 all: $(NAME)
 
 $(NAME): $(CMP)
 	@make -C $(LIBFT)
-	@$(CC) $(FLAGS) -L /usr/local/lib/ -lmlx -framework OpenGL -framework AppKit -o $(NAME) -L $(LIBFT) -lft $(CMP)
+	@$(CC) $(FLAGS) -o $(NAME) -L $(LIBFT) -lft $(CMP)
 	@echo "made" $(NAME)
 
 $(CMP): %.o: $(SRC)%.c

@@ -70,6 +70,7 @@ add_executable(md5
         libft/ft_printf/cast_mod_contnext.c
         libft/libft/ft_putnbr_fd.c
         libft/ft_printf/ft_putstrnew.c
+        libft/libft/ft_strcmp.c
 
         src/main.c
         src/initdata.c
@@ -78,4 +79,6 @@ add_executable(md5
         src/parsing.c
         src/custom_func.c
         src/wiki_md5.c
-        src/md5_logic.c)
+        src/md5_logic.c
+        src/sha256_wiki.c
+        src/sha256_logic.c)
