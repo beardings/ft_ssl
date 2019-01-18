@@ -46,6 +46,27 @@ unsigned int		reverse_bytes(const unsigned int x, const char bytes)
     return ((bytes == 1) ? x : reversed);
 }
 
+unsigned long		reverse_bytes_long(const unsigned long x, const char bytes)
+{
+    unsigned long	reversed;
+    unsigned char	*n1;
+    unsigned char	*n2;
+
+    n1 = (unsigned char *)&x;
+    n2 = (unsigned char *)&reversed;
+
+    n2[0] = n1[7];
+    n2[1] = n1[6];
+    n2[2] = n1[5];
+    n2[3] = n1[4];
+    n2[4] = n1[3];
+    n2[5] = n1[2];
+    n2[6] = n1[1];
+    n2[7] = n1[0];
+
+    return ((bytes == 1) ? x : reversed);
+}
+
 size_t			base_count(intmax_t n, short int base)
 {
     size_t c;

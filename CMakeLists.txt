@@ -81,4 +81,8 @@ add_executable(md5
         src/wiki_md5.c
         src/md5_logic.c
         src/sha256_wiki.c
-        src/sha256_logic.c)
+        src/sha256_logic.c
+        src/sha512_wiki.c
+        src/sha512_logic.c
+        src/sha224_wiki.c
+        src/sha224_logic.c src/print_sha.c)

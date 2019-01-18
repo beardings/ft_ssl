@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mponomar/projects/ft_ssl
+CMAKE_SOURCE_DIR = /Users/mponomar/Projects/ft_ssl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mponomar/projects/ft_ssl/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mponomar/Projects/ft_ssl/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/md5.dir/depend.make
@@ -59,1004 +59,1069 @@ include CMakeFiles/md5.dir/flags.make
 
 CMakeFiles/md5.dir/libft/libft/ft_bzero.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_bzero.c.o: ../libft/libft/ft_bzero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/md5.dir/libft/libft/ft_bzero.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_bzero.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_bzero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/md5.dir/libft/libft/ft_bzero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_bzero.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_bzero.c
 
 CMakeFiles/md5.dir/libft/libft/ft_bzero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_bzero.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_bzero.c > CMakeFiles/md5.dir/libft/libft/ft_bzero.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_bzero.c > CMakeFiles/md5.dir/libft/libft/ft_bzero.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_bzero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_bzero.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_bzero.c -o CMakeFiles/md5.dir/libft/libft/ft_bzero.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_bzero.c -o CMakeFiles/md5.dir/libft/libft/ft_bzero.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_memalloc.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_memalloc.c.o: ../libft/libft/ft_memalloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/md5.dir/libft/libft/ft_memalloc.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_memalloc.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_memalloc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/md5.dir/libft/libft/ft_memalloc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_memalloc.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_memalloc.c
 
 CMakeFiles/md5.dir/libft/libft/ft_memalloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_memalloc.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_memalloc.c > CMakeFiles/md5.dir/libft/libft/ft_memalloc.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_memalloc.c > CMakeFiles/md5.dir/libft/libft/ft_memalloc.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_memalloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_memalloc.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_memalloc.c -o CMakeFiles/md5.dir/libft/libft/ft_memalloc.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_memalloc.c -o CMakeFiles/md5.dir/libft/libft/ft_memalloc.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_memccpy.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_memccpy.c.o: ../libft/libft/ft_memccpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/md5.dir/libft/libft/ft_memccpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_memccpy.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_memccpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/md5.dir/libft/libft/ft_memccpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_memccpy.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_memccpy.c
 
 CMakeFiles/md5.dir/libft/libft/ft_memccpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_memccpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_memccpy.c > CMakeFiles/md5.dir/libft/libft/ft_memccpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_memccpy.c > CMakeFiles/md5.dir/libft/libft/ft_memccpy.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_memccpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_memccpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_memccpy.c -o CMakeFiles/md5.dir/libft/libft/ft_memccpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_memccpy.c -o CMakeFiles/md5.dir/libft/libft/ft_memccpy.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_memcpy.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_memcpy.c.o: ../libft/libft/ft_memcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/md5.dir/libft/libft/ft_memcpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_memcpy.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_memcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/md5.dir/libft/libft/ft_memcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_memcpy.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_memcpy.c
 
 CMakeFiles/md5.dir/libft/libft/ft_memcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_memcpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_memcpy.c > CMakeFiles/md5.dir/libft/libft/ft_memcpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_memcpy.c > CMakeFiles/md5.dir/libft/libft/ft_memcpy.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_memcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_memcpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_memcpy.c -o CMakeFiles/md5.dir/libft/libft/ft_memcpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_memcpy.c -o CMakeFiles/md5.dir/libft/libft/ft_memcpy.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_memset.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_memset.c.o: ../libft/libft/ft_memset.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/md5.dir/libft/libft/ft_memset.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_memset.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_memset.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/md5.dir/libft/libft/ft_memset.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_memset.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_memset.c
 
 CMakeFiles/md5.dir/libft/libft/ft_memset.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_memset.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_memset.c > CMakeFiles/md5.dir/libft/libft/ft_memset.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_memset.c > CMakeFiles/md5.dir/libft/libft/ft_memset.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_memset.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_memset.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_memset.c -o CMakeFiles/md5.dir/libft/libft/ft_memset.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_memset.c -o CMakeFiles/md5.dir/libft/libft/ft_memset.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_strdup.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_strdup.c.o: ../libft/libft/ft_strdup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strdup.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strdup.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strdup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strdup.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strdup.c
 
 CMakeFiles/md5.dir/libft/libft/ft_strdup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_strdup.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_strdup.c > CMakeFiles/md5.dir/libft/libft/ft_strdup.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strdup.c > CMakeFiles/md5.dir/libft/libft/ft_strdup.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_strdup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_strdup.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_strdup.c -o CMakeFiles/md5.dir/libft/libft/ft_strdup.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strdup.c -o CMakeFiles/md5.dir/libft/libft/ft_strdup.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_strjoin.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_strjoin.c.o: ../libft/libft/ft_strjoin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strjoin.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strjoin.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_strjoin.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strjoin.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strjoin.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strjoin.c
 
 CMakeFiles/md5.dir/libft/libft/ft_strjoin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_strjoin.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_strjoin.c > CMakeFiles/md5.dir/libft/libft/ft_strjoin.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strjoin.c > CMakeFiles/md5.dir/libft/libft/ft_strjoin.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_strjoin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_strjoin.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_strjoin.c -o CMakeFiles/md5.dir/libft/libft/ft_strjoin.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strjoin.c -o CMakeFiles/md5.dir/libft/libft/ft_strjoin.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_strlen.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_strlen.c.o: ../libft/libft/ft_strlen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strlen.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strlen.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_strlen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strlen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strlen.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strlen.c
 
 CMakeFiles/md5.dir/libft/libft/ft_strlen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_strlen.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_strlen.c > CMakeFiles/md5.dir/libft/libft/ft_strlen.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strlen.c > CMakeFiles/md5.dir/libft/libft/ft_strlen.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_strlen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_strlen.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_strlen.c -o CMakeFiles/md5.dir/libft/libft/ft_strlen.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strlen.c -o CMakeFiles/md5.dir/libft/libft/ft_strlen.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_strsplit.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_strsplit.c.o: ../libft/libft/ft_strsplit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strsplit.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strsplit.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strsplit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strsplit.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strsplit.c
 
 CMakeFiles/md5.dir/libft/libft/ft_strsplit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_strsplit.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_strsplit.c > CMakeFiles/md5.dir/libft/libft/ft_strsplit.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strsplit.c > CMakeFiles/md5.dir/libft/libft/ft_strsplit.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_strsplit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_strsplit.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_strsplit.c -o CMakeFiles/md5.dir/libft/libft/ft_strsplit.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strsplit.c -o CMakeFiles/md5.dir/libft/libft/ft_strsplit.c.s
 
 CMakeFiles/md5.dir/libft/get_next_line/get_next_line.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/get_next_line/get_next_line.c.o: ../libft/get_next_line/get_next_line.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/md5.dir/libft/get_next_line/get_next_line.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/get_next_line/get_next_line.c.o   -c /Users/mponomar/projects/ft_ssl/libft/get_next_line/get_next_line.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/md5.dir/libft/get_next_line/get_next_line.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/get_next_line/get_next_line.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/get_next_line/get_next_line.c
 
 CMakeFiles/md5.dir/libft/get_next_line/get_next_line.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/get_next_line/get_next_line.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/get_next_line/get_next_line.c > CMakeFiles/md5.dir/libft/get_next_line/get_next_line.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/get_next_line/get_next_line.c > CMakeFiles/md5.dir/libft/get_next_line/get_next_line.c.i
 
 CMakeFiles/md5.dir/libft/get_next_line/get_next_line.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/get_next_line/get_next_line.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/get_next_line/get_next_line.c -o CMakeFiles/md5.dir/libft/get_next_line/get_next_line.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/get_next_line/get_next_line.c -o CMakeFiles/md5.dir/libft/get_next_line/get_next_line.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_strnew.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_strnew.c.o: ../libft/libft/ft_strnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strnew.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strnew.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_strnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strnew.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strnew.c
 
 CMakeFiles/md5.dir/libft/libft/ft_strnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_strnew.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_strnew.c > CMakeFiles/md5.dir/libft/libft/ft_strnew.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strnew.c > CMakeFiles/md5.dir/libft/libft/ft_strnew.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_strnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_strnew.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_strnew.c -o CMakeFiles/md5.dir/libft/libft/ft_strnew.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strnew.c -o CMakeFiles/md5.dir/libft/libft/ft_strnew.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_hz.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_hz.c.o: ../libft/libft/ft_hz.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/md5.dir/libft/libft/ft_hz.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_hz.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_hz.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/md5.dir/libft/libft/ft_hz.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_hz.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_hz.c
 
 CMakeFiles/md5.dir/libft/libft/ft_hz.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_hz.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_hz.c > CMakeFiles/md5.dir/libft/libft/ft_hz.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_hz.c > CMakeFiles/md5.dir/libft/libft/ft_hz.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_hz.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_hz.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_hz.c -o CMakeFiles/md5.dir/libft/libft/ft_hz.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_hz.c -o CMakeFiles/md5.dir/libft/libft/ft_hz.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_newsize.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_newsize.c.o: ../libft/libft/ft_newsize.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/md5.dir/libft/libft/ft_newsize.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_newsize.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_newsize.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/md5.dir/libft/libft/ft_newsize.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_newsize.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_newsize.c
 
 CMakeFiles/md5.dir/libft/libft/ft_newsize.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_newsize.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_newsize.c > CMakeFiles/md5.dir/libft/libft/ft_newsize.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_newsize.c > CMakeFiles/md5.dir/libft/libft/ft_newsize.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_newsize.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_newsize.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_newsize.c -o CMakeFiles/md5.dir/libft/libft/ft_newsize.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_newsize.c -o CMakeFiles/md5.dir/libft/libft/ft_newsize.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/ft_printf.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/ft_printf.c.o: ../libft/ft_printf/ft_printf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/md5.dir/libft/ft_printf/ft_printf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/ft_printf.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/ft_printf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/md5.dir/libft/ft_printf/ft_printf.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/ft_printf.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/ft_printf.c
 
 CMakeFiles/md5.dir/libft/ft_printf/ft_printf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/ft_printf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/ft_printf.c > CMakeFiles/md5.dir/libft/ft_printf/ft_printf.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/ft_printf.c > CMakeFiles/md5.dir/libft/ft_printf/ft_printf.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/ft_printf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/ft_printf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/ft_printf.c -o CMakeFiles/md5.dir/libft/ft_printf/ft_printf.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/ft_printf.c -o CMakeFiles/md5.dir/libft/ft_printf/ft_printf.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_strcat.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_strcat.c.o: ../libft/libft/ft_strcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strcat.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strcat.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_strcat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strcat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strcat.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strcat.c
 
 CMakeFiles/md5.dir/libft/libft/ft_strcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_strcat.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_strcat.c > CMakeFiles/md5.dir/libft/libft/ft_strcat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strcat.c > CMakeFiles/md5.dir/libft/libft/ft_strcat.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_strcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_strcat.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_strcat.c -o CMakeFiles/md5.dir/libft/libft/ft_strcat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strcat.c -o CMakeFiles/md5.dir/libft/libft/ft_strcat.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_strchr.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_strchr.c.o: ../libft/libft/ft_strchr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strchr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strchr.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_strchr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strchr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strchr.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strchr.c
 
 CMakeFiles/md5.dir/libft/libft/ft_strchr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_strchr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_strchr.c > CMakeFiles/md5.dir/libft/libft/ft_strchr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strchr.c > CMakeFiles/md5.dir/libft/libft/ft_strchr.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_strchr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_strchr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_strchr.c -o CMakeFiles/md5.dir/libft/libft/ft_strchr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strchr.c -o CMakeFiles/md5.dir/libft/libft/ft_strchr.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_strclr.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_strclr.c.o: ../libft/libft/ft_strclr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strclr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strclr.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_strclr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strclr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strclr.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strclr.c
 
 CMakeFiles/md5.dir/libft/libft/ft_strclr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_strclr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_strclr.c > CMakeFiles/md5.dir/libft/libft/ft_strclr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strclr.c > CMakeFiles/md5.dir/libft/libft/ft_strclr.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_strclr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_strclr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_strclr.c -o CMakeFiles/md5.dir/libft/libft/ft_strclr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strclr.c -o CMakeFiles/md5.dir/libft/libft/ft_strclr.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_strcpy.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_strcpy.c.o: ../libft/libft/ft_strcpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strcpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strcpy.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_strcpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strcpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strcpy.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strcpy.c
 
 CMakeFiles/md5.dir/libft/libft/ft_strcpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_strcpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_strcpy.c > CMakeFiles/md5.dir/libft/libft/ft_strcpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strcpy.c > CMakeFiles/md5.dir/libft/libft/ft_strcpy.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_strcpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_strcpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_strcpy.c -o CMakeFiles/md5.dir/libft/libft/ft_strcpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strcpy.c -o CMakeFiles/md5.dir/libft/libft/ft_strcpy.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_strncpy.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_strncpy.c.o: ../libft/libft/ft_strncpy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strncpy.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strncpy.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_strncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strncpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strncpy.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strncpy.c
 
 CMakeFiles/md5.dir/libft/libft/ft_strncpy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_strncpy.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_strncpy.c > CMakeFiles/md5.dir/libft/libft/ft_strncpy.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strncpy.c > CMakeFiles/md5.dir/libft/libft/ft_strncpy.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_strncpy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_strncpy.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_strncpy.c -o CMakeFiles/md5.dir/libft/libft/ft_strncpy.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strncpy.c -o CMakeFiles/md5.dir/libft/libft/ft_strncpy.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_strsub.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_strsub.c.o: ../libft/libft/ft_strsub.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strsub.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strsub.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strsub.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strsub.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strsub.c
 
 CMakeFiles/md5.dir/libft/libft/ft_strsub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_strsub.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_strsub.c > CMakeFiles/md5.dir/libft/libft/ft_strsub.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strsub.c > CMakeFiles/md5.dir/libft/libft/ft_strsub.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_strsub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_strsub.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_strsub.c -o CMakeFiles/md5.dir/libft/libft/ft_strsub.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strsub.c -o CMakeFiles/md5.dir/libft/libft/ft_strsub.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/createres.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/createres.c.o: ../libft/ft_printf/createres.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/md5.dir/libft/ft_printf/createres.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/createres.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/createres.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/md5.dir/libft/ft_printf/createres.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/createres.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/createres.c
 
 CMakeFiles/md5.dir/libft/ft_printf/createres.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/createres.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/createres.c > CMakeFiles/md5.dir/libft/ft_printf/createres.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/createres.c > CMakeFiles/md5.dir/libft/ft_printf/createres.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/createres.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/createres.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/createres.c -o CMakeFiles/md5.dir/libft/ft_printf/createres.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/createres.c -o CMakeFiles/md5.dir/libft/ft_printf/createres.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/searcharg.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/searcharg.c.o: ../libft/ft_printf/searcharg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/md5.dir/libft/ft_printf/searcharg.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/searcharg.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/searcharg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/md5.dir/libft/ft_printf/searcharg.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/searcharg.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/searcharg.c
 
 CMakeFiles/md5.dir/libft/ft_printf/searcharg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/searcharg.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/searcharg.c > CMakeFiles/md5.dir/libft/ft_printf/searcharg.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/searcharg.c > CMakeFiles/md5.dir/libft/ft_printf/searcharg.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/searcharg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/searcharg.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/searcharg.c -o CMakeFiles/md5.dir/libft/ft_printf/searcharg.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/searcharg.c -o CMakeFiles/md5.dir/libft/ft_printf/searcharg.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/do_format.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/do_format.c.o: ../libft/ft_printf/do_format.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/md5.dir/libft/ft_printf/do_format.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/do_format.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/do_format.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/md5.dir/libft/ft_printf/do_format.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/do_format.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/do_format.c
 
 CMakeFiles/md5.dir/libft/ft_printf/do_format.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/do_format.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/do_format.c > CMakeFiles/md5.dir/libft/ft_printf/do_format.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/do_format.c > CMakeFiles/md5.dir/libft/ft_printf/do_format.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/do_format.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/do_format.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/do_format.c -o CMakeFiles/md5.dir/libft/ft_printf/do_format.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/do_format.c -o CMakeFiles/md5.dir/libft/ft_printf/do_format.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/startformat.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/startformat.c.o: ../libft/ft_printf/startformat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/md5.dir/libft/ft_printf/startformat.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/startformat.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/startformat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/md5.dir/libft/ft_printf/startformat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/startformat.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/startformat.c
 
 CMakeFiles/md5.dir/libft/ft_printf/startformat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/startformat.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/startformat.c > CMakeFiles/md5.dir/libft/ft_printf/startformat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/startformat.c > CMakeFiles/md5.dir/libft/ft_printf/startformat.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/startformat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/startformat.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/startformat.c -o CMakeFiles/md5.dir/libft/ft_printf/startformat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/startformat.c -o CMakeFiles/md5.dir/libft/ft_printf/startformat.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/upperarg.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/upperarg.c.o: ../libft/ft_printf/upperarg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/md5.dir/libft/ft_printf/upperarg.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/upperarg.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/upperarg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/md5.dir/libft/ft_printf/upperarg.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/upperarg.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/upperarg.c
 
 CMakeFiles/md5.dir/libft/ft_printf/upperarg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/upperarg.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/upperarg.c > CMakeFiles/md5.dir/libft/ft_printf/upperarg.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/upperarg.c > CMakeFiles/md5.dir/libft/ft_printf/upperarg.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/upperarg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/upperarg.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/upperarg.c -o CMakeFiles/md5.dir/libft/ft_printf/upperarg.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/upperarg.c -o CMakeFiles/md5.dir/libft/ft_printf/upperarg.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/writewidth.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/writewidth.c.o: ../libft/ft_printf/writewidth.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/md5.dir/libft/ft_printf/writewidth.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/writewidth.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/writewidth.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/md5.dir/libft/ft_printf/writewidth.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/writewidth.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/writewidth.c
 
 CMakeFiles/md5.dir/libft/ft_printf/writewidth.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/writewidth.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/writewidth.c > CMakeFiles/md5.dir/libft/ft_printf/writewidth.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/writewidth.c > CMakeFiles/md5.dir/libft/ft_printf/writewidth.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/writewidth.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/writewidth.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/writewidth.c -o CMakeFiles/md5.dir/libft/ft_printf/writewidth.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/writewidth.c -o CMakeFiles/md5.dir/libft/ft_printf/writewidth.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/writezero.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/writezero.c.o: ../libft/ft_printf/writezero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/md5.dir/libft/ft_printf/writezero.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/writezero.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/writezero.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/md5.dir/libft/ft_printf/writezero.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/writezero.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/writezero.c
 
 CMakeFiles/md5.dir/libft/ft_printf/writezero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/writezero.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/writezero.c > CMakeFiles/md5.dir/libft/ft_printf/writezero.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/writezero.c > CMakeFiles/md5.dir/libft/ft_printf/writezero.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/writezero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/writezero.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/writezero.c -o CMakeFiles/md5.dir/libft/ft_printf/writezero.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/writezero.c -o CMakeFiles/md5.dir/libft/ft_printf/writezero.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_standart_for_base.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/cast_standart_for_base.c.o: ../libft/ft_printf/cast_standart_for_base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_standart_for_base.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_standart_for_base.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_standart_for_base.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_standart_for_base.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_standart_for_base.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_standart_for_base.c
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_standart_for_base.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/cast_standart_for_base.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_standart_for_base.c > CMakeFiles/md5.dir/libft/ft_printf/cast_standart_for_base.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_standart_for_base.c > CMakeFiles/md5.dir/libft/ft_printf/cast_standart_for_base.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_standart_for_base.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/cast_standart_for_base.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_standart_for_base.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_standart_for_base.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_standart_for_base.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_standart_for_base.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/castflag_bigc.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/castflag_bigc.c.o: ../libft/ft_printf/castflag_bigc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/md5.dir/libft/ft_printf/castflag_bigc.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/castflag_bigc.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/castflag_bigc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/md5.dir/libft/ft_printf/castflag_bigc.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/castflag_bigc.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/castflag_bigc.c
 
 CMakeFiles/md5.dir/libft/ft_printf/castflag_bigc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/castflag_bigc.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/castflag_bigc.c > CMakeFiles/md5.dir/libft/ft_printf/castflag_bigc.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/castflag_bigc.c > CMakeFiles/md5.dir/libft/ft_printf/castflag_bigc.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/castflag_bigc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/castflag_bigc.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/castflag_bigc.c -o CMakeFiles/md5.dir/libft/ft_printf/castflag_bigc.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/castflag_bigc.c -o CMakeFiles/md5.dir/libft/ft_printf/castflag_bigc.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/castflag_bigs.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/castflag_bigs.c.o: ../libft/ft_printf/castflag_bigs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/md5.dir/libft/ft_printf/castflag_bigs.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/castflag_bigs.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/castflag_bigs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/md5.dir/libft/ft_printf/castflag_bigs.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/castflag_bigs.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/castflag_bigs.c
 
 CMakeFiles/md5.dir/libft/ft_printf/castflag_bigs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/castflag_bigs.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/castflag_bigs.c > CMakeFiles/md5.dir/libft/ft_printf/castflag_bigs.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/castflag_bigs.c > CMakeFiles/md5.dir/libft/ft_printf/castflag_bigs.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/castflag_bigs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/castflag_bigs.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/castflag_bigs.c -o CMakeFiles/md5.dir/libft/ft_printf/castflag_bigs.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/castflag_bigs.c -o CMakeFiles/md5.dir/libft/ft_printf/castflag_bigs.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod.c.o: ../libft/ft_printf/cast_mod.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_mod.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_mod.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod.c
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/cast_mod.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod.c > CMakeFiles/md5.dir/libft/ft_printf/cast_mod.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod.c > CMakeFiles/md5.dir/libft/ft_printf/cast_mod.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/cast_mod.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/minusmissing.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/minusmissing.c.o: ../libft/ft_printf/minusmissing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/md5.dir/libft/ft_printf/minusmissing.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/minusmissing.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/minusmissing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/md5.dir/libft/ft_printf/minusmissing.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/minusmissing.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/minusmissing.c
 
 CMakeFiles/md5.dir/libft/ft_printf/minusmissing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/minusmissing.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/minusmissing.c > CMakeFiles/md5.dir/libft/ft_printf/minusmissing.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/minusmissing.c > CMakeFiles/md5.dir/libft/ft_printf/minusmissing.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/minusmissing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/minusmissing.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/minusmissing.c -o CMakeFiles/md5.dir/libft/ft_printf/minusmissing.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/minusmissing.c -o CMakeFiles/md5.dir/libft/ft_printf/minusmissing.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/minuspresent.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/minuspresent.c.o: ../libft/ft_printf/minuspresent.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/md5.dir/libft/ft_printf/minuspresent.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/minuspresent.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/minuspresent.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/md5.dir/libft/ft_printf/minuspresent.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/minuspresent.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/minuspresent.c
 
 CMakeFiles/md5.dir/libft/ft_printf/minuspresent.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/minuspresent.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/minuspresent.c > CMakeFiles/md5.dir/libft/ft_printf/minuspresent.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/minuspresent.c > CMakeFiles/md5.dir/libft/ft_printf/minuspresent.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/minuspresent.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/minuspresent.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/minuspresent.c -o CMakeFiles/md5.dir/libft/ft_printf/minuspresent.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/minuspresent.c -o CMakeFiles/md5.dir/libft/ft_printf/minuspresent.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/numnull.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/numnull.c.o: ../libft/ft_printf/numnull.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/md5.dir/libft/ft_printf/numnull.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/numnull.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/numnull.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/md5.dir/libft/ft_printf/numnull.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/numnull.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/numnull.c
 
 CMakeFiles/md5.dir/libft/ft_printf/numnull.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/numnull.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/numnull.c > CMakeFiles/md5.dir/libft/ft_printf/numnull.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/numnull.c > CMakeFiles/md5.dir/libft/ft_printf/numnull.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/numnull.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/numnull.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/numnull.c -o CMakeFiles/md5.dir/libft/ft_printf/numnull.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/numnull.c -o CMakeFiles/md5.dir/libft/ft_printf/numnull.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/writewchar_t.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/writewchar_t.c.o: ../libft/ft_printf/writewchar_t.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/md5.dir/libft/ft_printf/writewchar_t.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/writewchar_t.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/writewchar_t.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/md5.dir/libft/ft_printf/writewchar_t.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/writewchar_t.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/writewchar_t.c
 
 CMakeFiles/md5.dir/libft/ft_printf/writewchar_t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/writewchar_t.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/writewchar_t.c > CMakeFiles/md5.dir/libft/ft_printf/writewchar_t.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/writewchar_t.c > CMakeFiles/md5.dir/libft/ft_printf/writewchar_t.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/writewchar_t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/writewchar_t.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/writewchar_t.c -o CMakeFiles/md5.dir/libft/ft_printf/writewchar_t.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/writewchar_t.c -o CMakeFiles/md5.dir/libft/ft_printf/writewchar_t.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/writepress.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/writepress.c.o: ../libft/ft_printf/writepress.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/md5.dir/libft/ft_printf/writepress.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/writepress.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/writepress.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/md5.dir/libft/ft_printf/writepress.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/writepress.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/writepress.c
 
 CMakeFiles/md5.dir/libft/ft_printf/writepress.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/writepress.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/writepress.c > CMakeFiles/md5.dir/libft/ft_printf/writepress.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/writepress.c > CMakeFiles/md5.dir/libft/ft_printf/writepress.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/writepress.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/writepress.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/writepress.c -o CMakeFiles/md5.dir/libft/ft_printf/writepress.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/writepress.c -o CMakeFiles/md5.dir/libft/ft_printf/writepress.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/utflen.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/utflen.c.o: ../libft/ft_printf/utflen.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/md5.dir/libft/ft_printf/utflen.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/utflen.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/utflen.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/md5.dir/libft/ft_printf/utflen.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/utflen.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/utflen.c
 
 CMakeFiles/md5.dir/libft/ft_printf/utflen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/utflen.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/utflen.c > CMakeFiles/md5.dir/libft/ft_printf/utflen.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/utflen.c > CMakeFiles/md5.dir/libft/ft_printf/utflen.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/utflen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/utflen.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/utflen.c -o CMakeFiles/md5.dir/libft/ft_printf/utflen.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/utflen.c -o CMakeFiles/md5.dir/libft/ft_printf/utflen.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_putnbr.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_putnbr.c.o: ../libft/libft/ft_putnbr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/md5.dir/libft/libft/ft_putnbr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_putnbr.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_putnbr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/md5.dir/libft/libft/ft_putnbr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_putnbr.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_putnbr.c
 
 CMakeFiles/md5.dir/libft/libft/ft_putnbr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_putnbr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_putnbr.c > CMakeFiles/md5.dir/libft/libft/ft_putnbr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_putnbr.c > CMakeFiles/md5.dir/libft/libft/ft_putnbr.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_putnbr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_putnbr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_putnbr.c -o CMakeFiles/md5.dir/libft/libft/ft_putnbr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_putnbr.c -o CMakeFiles/md5.dir/libft/libft/ft_putnbr.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_lenint.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_lenint.c.o: ../libft/libft/ft_lenint.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/md5.dir/libft/libft/ft_lenint.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_lenint.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_lenint.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/md5.dir/libft/libft/ft_lenint.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_lenint.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_lenint.c
 
 CMakeFiles/md5.dir/libft/libft/ft_lenint.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_lenint.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_lenint.c > CMakeFiles/md5.dir/libft/libft/ft_lenint.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_lenint.c > CMakeFiles/md5.dir/libft/libft/ft_lenint.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_lenint.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_lenint.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_lenint.c -o CMakeFiles/md5.dir/libft/libft/ft_lenint.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_lenint.c -o CMakeFiles/md5.dir/libft/libft/ft_lenint.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_putchar.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_putchar.c.o: ../libft/libft/ft_putchar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/md5.dir/libft/libft/ft_putchar.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_putchar.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_putchar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/md5.dir/libft/libft/ft_putchar.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_putchar.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_putchar.c
 
 CMakeFiles/md5.dir/libft/libft/ft_putchar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_putchar.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_putchar.c > CMakeFiles/md5.dir/libft/libft/ft_putchar.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_putchar.c > CMakeFiles/md5.dir/libft/libft/ft_putchar.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_putchar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_putchar.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_putchar.c -o CMakeFiles/md5.dir/libft/libft/ft_putchar.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_putchar.c -o CMakeFiles/md5.dir/libft/libft/ft_putchar.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_atoi.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_atoi.c.o: ../libft/libft/ft_atoi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/md5.dir/libft/libft/ft_atoi.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_atoi.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_atoi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/md5.dir/libft/libft/ft_atoi.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_atoi.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_atoi.c
 
 CMakeFiles/md5.dir/libft/libft/ft_atoi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_atoi.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_atoi.c > CMakeFiles/md5.dir/libft/libft/ft_atoi.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_atoi.c > CMakeFiles/md5.dir/libft/libft/ft_atoi.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_atoi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_atoi.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_atoi.c -o CMakeFiles/md5.dir/libft/libft/ft_atoi.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_atoi.c -o CMakeFiles/md5.dir/libft/libft/ft_atoi.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/ft_null.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/ft_null.c.o: ../libft/ft_printf/ft_null.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/md5.dir/libft/ft_printf/ft_null.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/ft_null.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/ft_null.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/md5.dir/libft/ft_printf/ft_null.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/ft_null.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/ft_null.c
 
 CMakeFiles/md5.dir/libft/ft_printf/ft_null.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/ft_null.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/ft_null.c > CMakeFiles/md5.dir/libft/ft_printf/ft_null.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/ft_null.c > CMakeFiles/md5.dir/libft/ft_printf/ft_null.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/ft_null.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/ft_null.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/ft_null.c -o CMakeFiles/md5.dir/libft/ft_printf/ft_null.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/ft_null.c -o CMakeFiles/md5.dir/libft/ft_printf/ft_null.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/dowchar_t.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/dowchar_t.c.o: ../libft/ft_printf/dowchar_t.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/md5.dir/libft/ft_printf/dowchar_t.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/dowchar_t.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/dowchar_t.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/md5.dir/libft/ft_printf/dowchar_t.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/dowchar_t.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/dowchar_t.c
 
 CMakeFiles/md5.dir/libft/ft_printf/dowchar_t.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/dowchar_t.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/dowchar_t.c > CMakeFiles/md5.dir/libft/ft_printf/dowchar_t.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/dowchar_t.c > CMakeFiles/md5.dir/libft/ft_printf/dowchar_t.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/dowchar_t.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/dowchar_t.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/dowchar_t.c -o CMakeFiles/md5.dir/libft/ft_printf/dowchar_t.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/dowchar_t.c -o CMakeFiles/md5.dir/libft/ft_printf/dowchar_t.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_putchar_fd.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_putchar_fd.c.o: ../libft/libft/ft_putchar_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/md5.dir/libft/libft/ft_putchar_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_putchar_fd.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_putchar_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/md5.dir/libft/libft/ft_putchar_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_putchar_fd.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_putchar_fd.c
 
 CMakeFiles/md5.dir/libft/libft/ft_putchar_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_putchar_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_putchar_fd.c > CMakeFiles/md5.dir/libft/libft/ft_putchar_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_putchar_fd.c > CMakeFiles/md5.dir/libft/libft/ft_putchar_fd.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_putchar_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_putchar_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_putchar_fd.c -o CMakeFiles/md5.dir/libft/libft/ft_putchar_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_putchar_fd.c -o CMakeFiles/md5.dir/libft/libft/ft_putchar_fd.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/castflag_c.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/castflag_c.c.o: ../libft/ft_printf/castflag_c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/md5.dir/libft/ft_printf/castflag_c.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/castflag_c.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/castflag_c.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/md5.dir/libft/ft_printf/castflag_c.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/castflag_c.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/castflag_c.c
 
 CMakeFiles/md5.dir/libft/ft_printf/castflag_c.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/castflag_c.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/castflag_c.c > CMakeFiles/md5.dir/libft/ft_printf/castflag_c.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/castflag_c.c > CMakeFiles/md5.dir/libft/ft_printf/castflag_c.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/castflag_c.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/castflag_c.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/castflag_c.c -o CMakeFiles/md5.dir/libft/ft_printf/castflag_c.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/castflag_c.c -o CMakeFiles/md5.dir/libft/ft_printf/castflag_c.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/castflag_s.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/castflag_s.c.o: ../libft/ft_printf/castflag_s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/md5.dir/libft/ft_printf/castflag_s.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/castflag_s.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/castflag_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/md5.dir/libft/ft_printf/castflag_s.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/castflag_s.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/castflag_s.c
 
 CMakeFiles/md5.dir/libft/ft_printf/castflag_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/castflag_s.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/castflag_s.c > CMakeFiles/md5.dir/libft/ft_printf/castflag_s.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/castflag_s.c > CMakeFiles/md5.dir/libft/ft_printf/castflag_s.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/castflag_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/castflag_s.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/castflag_s.c -o CMakeFiles/md5.dir/libft/ft_printf/castflag_s.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/castflag_s.c -o CMakeFiles/md5.dir/libft/ft_printf/castflag_s.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_base.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_base.c.o: ../libft/ft_printf/cast_mod_base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_mod_base.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_base.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_base.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_mod_base.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_base.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_base.c
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_base.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/cast_mod_base.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_base.c > CMakeFiles/md5.dir/libft/ft_printf/cast_mod_base.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_base.c > CMakeFiles/md5.dir/libft/ft_printf/cast_mod_base.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_base.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/cast_mod_base.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_base.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_base.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_base.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_base.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_putstr.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_putstr.c.o: ../libft/libft/ft_putstr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/md5.dir/libft/libft/ft_putstr.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_putstr.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_putstr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/md5.dir/libft/libft/ft_putstr.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_putstr.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_putstr.c
 
 CMakeFiles/md5.dir/libft/libft/ft_putstr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_putstr.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_putstr.c > CMakeFiles/md5.dir/libft/libft/ft_putstr.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_putstr.c > CMakeFiles/md5.dir/libft/libft/ft_putstr.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_putstr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_putstr.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_putstr.c -o CMakeFiles/md5.dir/libft/libft/ft_putstr.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_putstr.c -o CMakeFiles/md5.dir/libft/libft/ft_putstr.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/printhesh.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/printhesh.c.o: ../libft/ft_printf/printhesh.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/md5.dir/libft/ft_printf/printhesh.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/printhesh.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/printhesh.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/md5.dir/libft/ft_printf/printhesh.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/printhesh.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/printhesh.c
 
 CMakeFiles/md5.dir/libft/ft_printf/printhesh.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/printhesh.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/printhesh.c > CMakeFiles/md5.dir/libft/ft_printf/printhesh.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/printhesh.c > CMakeFiles/md5.dir/libft/ft_printf/printhesh.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/printhesh.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/printhesh.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/printhesh.c -o CMakeFiles/md5.dir/libft/ft_printf/printhesh.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/printhesh.c -o CMakeFiles/md5.dir/libft/ft_printf/printhesh.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/preox.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/preox.c.o: ../libft/ft_printf/preox.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/md5.dir/libft/ft_printf/preox.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/preox.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/preox.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/md5.dir/libft/ft_printf/preox.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/preox.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/preox.c
 
 CMakeFiles/md5.dir/libft/ft_printf/preox.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/preox.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/preox.c > CMakeFiles/md5.dir/libft/ft_printf/preox.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/preox.c > CMakeFiles/md5.dir/libft/ft_printf/preox.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/preox.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/preox.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/preox.c -o CMakeFiles/md5.dir/libft/ft_printf/preox.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/preox.c -o CMakeFiles/md5.dir/libft/ft_printf/preox.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/castpress_s.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/castpress_s.c.o: ../libft/ft_printf/castpress_s.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/md5.dir/libft/ft_printf/castpress_s.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/castpress_s.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/castpress_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/md5.dir/libft/ft_printf/castpress_s.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/castpress_s.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/castpress_s.c
 
 CMakeFiles/md5.dir/libft/ft_printf/castpress_s.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/castpress_s.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/castpress_s.c > CMakeFiles/md5.dir/libft/ft_printf/castpress_s.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/castpress_s.c > CMakeFiles/md5.dir/libft/ft_printf/castpress_s.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/castpress_s.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/castpress_s.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/castpress_s.c -o CMakeFiles/md5.dir/libft/ft_printf/castpress_s.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/castpress_s.c -o CMakeFiles/md5.dir/libft/ft_printf/castpress_s.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/castpress_bigs.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/castpress_bigs.c.o: ../libft/ft_printf/castpress_bigs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/md5.dir/libft/ft_printf/castpress_bigs.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/castpress_bigs.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/castpress_bigs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/md5.dir/libft/ft_printf/castpress_bigs.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/castpress_bigs.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/castpress_bigs.c
 
 CMakeFiles/md5.dir/libft/ft_printf/castpress_bigs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/castpress_bigs.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/castpress_bigs.c > CMakeFiles/md5.dir/libft/ft_printf/castpress_bigs.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/castpress_bigs.c > CMakeFiles/md5.dir/libft/ft_printf/castpress_bigs.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/castpress_bigs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/castpress_bigs.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/castpress_bigs.c -o CMakeFiles/md5.dir/libft/ft_printf/castpress_bigs.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/castpress_bigs.c -o CMakeFiles/md5.dir/libft/ft_printf/castpress_bigs.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/base.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/base.c.o: ../libft/ft_printf/base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/md5.dir/libft/ft_printf/base.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/base.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/base.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/md5.dir/libft/ft_printf/base.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/base.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/base.c
 
 CMakeFiles/md5.dir/libft/ft_printf/base.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/base.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/base.c > CMakeFiles/md5.dir/libft/ft_printf/base.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/base.c > CMakeFiles/md5.dir/libft/ft_printf/base.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/base.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/base.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/base.c -o CMakeFiles/md5.dir/libft/ft_printf/base.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/base.c -o CMakeFiles/md5.dir/libft/ft_printf/base.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_b.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_b.c.o: ../libft/ft_printf/cast_mod_b.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_mod_b.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_b.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_b.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_mod_b.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_b.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_b.c
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_b.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/cast_mod_b.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_b.c > CMakeFiles/md5.dir/libft/ft_printf/cast_mod_b.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_b.c > CMakeFiles/md5.dir/libft/ft_printf/cast_mod_b.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_b.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/cast_mod_b.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_b.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_b.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_b.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_b.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_cont.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_cont.c.o: ../libft/ft_printf/cast_mod_cont.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_mod_cont.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_cont.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_cont.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_mod_cont.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_cont.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_cont.c
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_cont.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/cast_mod_cont.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_cont.c > CMakeFiles/md5.dir/libft/ft_printf/cast_mod_cont.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_cont.c > CMakeFiles/md5.dir/libft/ft_printf/cast_mod_cont.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_cont.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/cast_mod_cont.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_cont.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_cont.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_cont.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_cont.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_nnnnn.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/cast_nnnnn.c.o: ../libft/ft_printf/cast_nnnnn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_nnnnn.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_nnnnn.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_nnnnn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_nnnnn.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_nnnnn.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_nnnnn.c
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_nnnnn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/cast_nnnnn.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_nnnnn.c > CMakeFiles/md5.dir/libft/ft_printf/cast_nnnnn.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_nnnnn.c > CMakeFiles/md5.dir/libft/ft_printf/cast_nnnnn.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_nnnnn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/cast_nnnnn.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_nnnnn.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_nnnnn.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_nnnnn.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_nnnnn.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contn.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contn.c.o: ../libft/ft_printf/cast_mod_contn.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contn.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contn.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_contn.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contn.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contn.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_contn.c
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contn.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contn.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_contn.c > CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contn.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_contn.c > CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contn.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contn.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contn.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_contn.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contn.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_contn.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contn.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/ft_itoa_base.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/ft_itoa_base.c.o: ../libft/ft_printf/ft_itoa_base.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/md5.dir/libft/ft_printf/ft_itoa_base.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/ft_itoa_base.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/ft_itoa_base.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/md5.dir/libft/ft_printf/ft_itoa_base.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/ft_itoa_base.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/ft_itoa_base.c
 
 CMakeFiles/md5.dir/libft/ft_printf/ft_itoa_base.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/ft_itoa_base.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/ft_itoa_base.c > CMakeFiles/md5.dir/libft/ft_printf/ft_itoa_base.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/ft_itoa_base.c > CMakeFiles/md5.dir/libft/ft_printf/ft_itoa_base.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/ft_itoa_base.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/ft_itoa_base.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/ft_itoa_base.c -o CMakeFiles/md5.dir/libft/ft_printf/ft_itoa_base.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/ft_itoa_base.c -o CMakeFiles/md5.dir/libft/ft_printf/ft_itoa_base.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/otherutf.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/otherutf.c.o: ../libft/ft_printf/otherutf.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/md5.dir/libft/ft_printf/otherutf.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/otherutf.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/otherutf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/md5.dir/libft/ft_printf/otherutf.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/otherutf.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/otherutf.c
 
 CMakeFiles/md5.dir/libft/ft_printf/otherutf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/otherutf.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/otherutf.c > CMakeFiles/md5.dir/libft/ft_printf/otherutf.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/otherutf.c > CMakeFiles/md5.dir/libft/ft_printf/otherutf.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/otherutf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/otherutf.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/otherutf.c -o CMakeFiles/md5.dir/libft/ft_printf/otherutf.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/otherutf.c -o CMakeFiles/md5.dir/libft/ft_printf/otherutf.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_next.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_next.c.o: ../libft/ft_printf/cast_mod_next.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_mod_next.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_next.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_next.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_mod_next.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_next.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_next.c
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_next.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/cast_mod_next.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_next.c > CMakeFiles/md5.dir/libft/ft_printf/cast_mod_next.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_next.c > CMakeFiles/md5.dir/libft/ft_printf/cast_mod_next.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_next.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/cast_mod_next.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_next.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_next.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_next.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_next.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_modnex.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/cast_modnex.c.o: ../libft/ft_printf/cast_modnex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_modnex.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_modnex.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_modnex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_modnex.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_modnex.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_modnex.c
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_modnex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/cast_modnex.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_modnex.c > CMakeFiles/md5.dir/libft/ft_printf/cast_modnex.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_modnex.c > CMakeFiles/md5.dir/libft/ft_printf/cast_modnex.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_modnex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/cast_modnex.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_modnex.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_modnex.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_modnex.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_modnex.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/checkcan.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/checkcan.c.o: ../libft/ft_printf/checkcan.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/md5.dir/libft/ft_printf/checkcan.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/checkcan.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/checkcan.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/md5.dir/libft/ft_printf/checkcan.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/checkcan.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/checkcan.c
 
 CMakeFiles/md5.dir/libft/ft_printf/checkcan.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/checkcan.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/checkcan.c > CMakeFiles/md5.dir/libft/ft_printf/checkcan.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/checkcan.c > CMakeFiles/md5.dir/libft/ft_printf/checkcan.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/checkcan.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/checkcan.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/checkcan.c -o CMakeFiles/md5.dir/libft/ft_printf/checkcan.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/checkcan.c -o CMakeFiles/md5.dir/libft/ft_printf/checkcan.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/checktype.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/checktype.c.o: ../libft/ft_printf/checktype.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/md5.dir/libft/ft_printf/checktype.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/checktype.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/checktype.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/md5.dir/libft/ft_printf/checktype.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/checktype.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/checktype.c
 
 CMakeFiles/md5.dir/libft/ft_printf/checktype.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/checktype.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/checktype.c > CMakeFiles/md5.dir/libft/ft_printf/checktype.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/checktype.c > CMakeFiles/md5.dir/libft/ft_printf/checktype.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/checktype.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/checktype.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/checktype.c -o CMakeFiles/md5.dir/libft/ft_printf/checktype.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/checktype.c -o CMakeFiles/md5.dir/libft/ft_printf/checktype.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contnext.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contnext.c.o: ../libft/ft_printf/cast_mod_contnext.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contnext.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contnext.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_contnext.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contnext.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contnext.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_contnext.c
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contnext.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contnext.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_contnext.c > CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contnext.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_contnext.c > CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contnext.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contnext.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contnext.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_contnext.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contnext.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_contnext.c -o CMakeFiles/md5.dir/libft/ft_printf/cast_mod_contnext.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_putnbr_fd.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_putnbr_fd.c.o: ../libft/libft/ft_putnbr_fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/md5.dir/libft/libft/ft_putnbr_fd.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_putnbr_fd.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_putnbr_fd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/md5.dir/libft/libft/ft_putnbr_fd.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_putnbr_fd.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_putnbr_fd.c
 
 CMakeFiles/md5.dir/libft/libft/ft_putnbr_fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_putnbr_fd.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_putnbr_fd.c > CMakeFiles/md5.dir/libft/libft/ft_putnbr_fd.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_putnbr_fd.c > CMakeFiles/md5.dir/libft/libft/ft_putnbr_fd.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_putnbr_fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_putnbr_fd.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_putnbr_fd.c -o CMakeFiles/md5.dir/libft/libft/ft_putnbr_fd.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_putnbr_fd.c -o CMakeFiles/md5.dir/libft/libft/ft_putnbr_fd.c.s
 
 CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.o: ../libft/ft_printf/ft_putstrnew.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.o   -c /Users/mponomar/projects/ft_ssl/libft/ft_printf/ft_putstrnew.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/ft_printf/ft_putstrnew.c
 
 CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/ft_printf/ft_putstrnew.c > CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/ft_printf/ft_putstrnew.c > CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.i
 
 CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/ft_printf/ft_putstrnew.c -o CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/ft_printf/ft_putstrnew.c -o CMakeFiles/md5.dir/libft/ft_printf/ft_putstrnew.c.s
 
 CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.o: ../libft/libft/ft_strcmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.o   -c /Users/mponomar/projects/ft_ssl/libft/libft/ft_strcmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.o   -c /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strcmp.c
 
 CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/libft/libft/ft_strcmp.c > CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strcmp.c > CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.i
 
 CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/libft/libft/ft_strcmp.c -o CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/libft/libft/ft_strcmp.c -o CMakeFiles/md5.dir/libft/libft/ft_strcmp.c.s
 
 CMakeFiles/md5.dir/src/main.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/src/main.c.o: ../src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/md5.dir/src/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/main.c.o   -c /Users/mponomar/projects/ft_ssl/src/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/md5.dir/src/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/main.c.o   -c /Users/mponomar/Projects/ft_ssl/src/main.c
 
 CMakeFiles/md5.dir/src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/src/main.c > CMakeFiles/md5.dir/src/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/src/main.c > CMakeFiles/md5.dir/src/main.c.i
 
 CMakeFiles/md5.dir/src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/src/main.c -o CMakeFiles/md5.dir/src/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/src/main.c -o CMakeFiles/md5.dir/src/main.c.s
 
 CMakeFiles/md5.dir/src/initdata.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/src/initdata.c.o: ../src/initdata.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/md5.dir/src/initdata.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/initdata.c.o   -c /Users/mponomar/projects/ft_ssl/src/initdata.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/md5.dir/src/initdata.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/initdata.c.o   -c /Users/mponomar/Projects/ft_ssl/src/initdata.c
 
 CMakeFiles/md5.dir/src/initdata.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/initdata.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/src/initdata.c > CMakeFiles/md5.dir/src/initdata.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/src/initdata.c > CMakeFiles/md5.dir/src/initdata.c.i
 
 CMakeFiles/md5.dir/src/initdata.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/initdata.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/src/initdata.c -o CMakeFiles/md5.dir/src/initdata.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/src/initdata.c -o CMakeFiles/md5.dir/src/initdata.c.s
 
 CMakeFiles/md5.dir/src/console.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/src/console.c.o: ../src/console.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/md5.dir/src/console.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/console.c.o   -c /Users/mponomar/projects/ft_ssl/src/console.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/md5.dir/src/console.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/console.c.o   -c /Users/mponomar/Projects/ft_ssl/src/console.c
 
 CMakeFiles/md5.dir/src/console.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/console.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/src/console.c > CMakeFiles/md5.dir/src/console.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/src/console.c > CMakeFiles/md5.dir/src/console.c.i
 
 CMakeFiles/md5.dir/src/console.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/console.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/src/console.c -o CMakeFiles/md5.dir/src/console.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/src/console.c -o CMakeFiles/md5.dir/src/console.c.s
 
 CMakeFiles/md5.dir/src/print.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/src/print.c.o: ../src/print.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/md5.dir/src/print.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/print.c.o   -c /Users/mponomar/projects/ft_ssl/src/print.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/md5.dir/src/print.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/print.c.o   -c /Users/mponomar/Projects/ft_ssl/src/print.c
 
 CMakeFiles/md5.dir/src/print.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/print.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/src/print.c > CMakeFiles/md5.dir/src/print.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/src/print.c > CMakeFiles/md5.dir/src/print.c.i
 
 CMakeFiles/md5.dir/src/print.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/print.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/src/print.c -o CMakeFiles/md5.dir/src/print.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/src/print.c -o CMakeFiles/md5.dir/src/print.c.s
 
 CMakeFiles/md5.dir/src/parsing.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/src/parsing.c.o: ../src/parsing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/md5.dir/src/parsing.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/parsing.c.o   -c /Users/mponomar/projects/ft_ssl/src/parsing.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/md5.dir/src/parsing.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/parsing.c.o   -c /Users/mponomar/Projects/ft_ssl/src/parsing.c
 
 CMakeFiles/md5.dir/src/parsing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/parsing.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/src/parsing.c > CMakeFiles/md5.dir/src/parsing.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/src/parsing.c > CMakeFiles/md5.dir/src/parsing.c.i
 
 CMakeFiles/md5.dir/src/parsing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/parsing.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/src/parsing.c -o CMakeFiles/md5.dir/src/parsing.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/src/parsing.c -o CMakeFiles/md5.dir/src/parsing.c.s
 
 CMakeFiles/md5.dir/src/custom_func.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/src/custom_func.c.o: ../src/custom_func.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/md5.dir/src/custom_func.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/custom_func.c.o   -c /Users/mponomar/projects/ft_ssl/src/custom_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/md5.dir/src/custom_func.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/custom_func.c.o   -c /Users/mponomar/Projects/ft_ssl/src/custom_func.c
 
 CMakeFiles/md5.dir/src/custom_func.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/custom_func.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/src/custom_func.c > CMakeFiles/md5.dir/src/custom_func.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/src/custom_func.c > CMakeFiles/md5.dir/src/custom_func.c.i
 
 CMakeFiles/md5.dir/src/custom_func.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/custom_func.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/src/custom_func.c -o CMakeFiles/md5.dir/src/custom_func.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/src/custom_func.c -o CMakeFiles/md5.dir/src/custom_func.c.s
 
 CMakeFiles/md5.dir/src/wiki_md5.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/src/wiki_md5.c.o: ../src/wiki_md5.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/md5.dir/src/wiki_md5.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/wiki_md5.c.o   -c /Users/mponomar/projects/ft_ssl/src/wiki_md5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/md5.dir/src/wiki_md5.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/wiki_md5.c.o   -c /Users/mponomar/Projects/ft_ssl/src/wiki_md5.c
 
 CMakeFiles/md5.dir/src/wiki_md5.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/wiki_md5.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/src/wiki_md5.c > CMakeFiles/md5.dir/src/wiki_md5.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/src/wiki_md5.c > CMakeFiles/md5.dir/src/wiki_md5.c.i
 
 CMakeFiles/md5.dir/src/wiki_md5.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/wiki_md5.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/src/wiki_md5.c -o CMakeFiles/md5.dir/src/wiki_md5.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/src/wiki_md5.c -o CMakeFiles/md5.dir/src/wiki_md5.c.s
 
 CMakeFiles/md5.dir/src/md5_logic.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/src/md5_logic.c.o: ../src/md5_logic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/md5.dir/src/md5_logic.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/md5_logic.c.o   -c /Users/mponomar/projects/ft_ssl/src/md5_logic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/md5.dir/src/md5_logic.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/md5_logic.c.o   -c /Users/mponomar/Projects/ft_ssl/src/md5_logic.c
 
 CMakeFiles/md5.dir/src/md5_logic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/md5_logic.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/src/md5_logic.c > CMakeFiles/md5.dir/src/md5_logic.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/src/md5_logic.c > CMakeFiles/md5.dir/src/md5_logic.c.i
 
 CMakeFiles/md5.dir/src/md5_logic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/md5_logic.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/src/md5_logic.c -o CMakeFiles/md5.dir/src/md5_logic.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/src/md5_logic.c -o CMakeFiles/md5.dir/src/md5_logic.c.s
 
 CMakeFiles/md5.dir/src/sha256_wiki.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/src/sha256_wiki.c.o: ../src/sha256_wiki.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/md5.dir/src/sha256_wiki.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/sha256_wiki.c.o   -c /Users/mponomar/projects/ft_ssl/src/sha256_wiki.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/md5.dir/src/sha256_wiki.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/sha256_wiki.c.o   -c /Users/mponomar/Projects/ft_ssl/src/sha256_wiki.c
 
 CMakeFiles/md5.dir/src/sha256_wiki.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/sha256_wiki.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/src/sha256_wiki.c > CMakeFiles/md5.dir/src/sha256_wiki.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/src/sha256_wiki.c > CMakeFiles/md5.dir/src/sha256_wiki.c.i
 
 CMakeFiles/md5.dir/src/sha256_wiki.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/sha256_wiki.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/src/sha256_wiki.c -o CMakeFiles/md5.dir/src/sha256_wiki.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/src/sha256_wiki.c -o CMakeFiles/md5.dir/src/sha256_wiki.c.s
 
 CMakeFiles/md5.dir/src/sha256_logic.c.o: CMakeFiles/md5.dir/flags.make
 CMakeFiles/md5.dir/src/sha256_logic.c.o: ../src/sha256_logic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/md5.dir/src/sha256_logic.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/sha256_logic.c.o   -c /Users/mponomar/projects/ft_ssl/src/sha256_logic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/md5.dir/src/sha256_logic.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/sha256_logic.c.o   -c /Users/mponomar/Projects/ft_ssl/src/sha256_logic.c
 
 CMakeFiles/md5.dir/src/sha256_logic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/sha256_logic.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/projects/ft_ssl/src/sha256_logic.c > CMakeFiles/md5.dir/src/sha256_logic.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/src/sha256_logic.c > CMakeFiles/md5.dir/src/sha256_logic.c.i
 
 CMakeFiles/md5.dir/src/sha256_logic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/sha256_logic.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/projects/ft_ssl/src/sha256_logic.c -o CMakeFiles/md5.dir/src/sha256_logic.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/src/sha256_logic.c -o CMakeFiles/md5.dir/src/sha256_logic.c.s
+
+CMakeFiles/md5.dir/src/sha512_wiki.c.o: CMakeFiles/md5.dir/flags.make
+CMakeFiles/md5.dir/src/sha512_wiki.c.o: ../src/sha512_wiki.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/md5.dir/src/sha512_wiki.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/sha512_wiki.c.o   -c /Users/mponomar/Projects/ft_ssl/src/sha512_wiki.c
+
+CMakeFiles/md5.dir/src/sha512_wiki.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/sha512_wiki.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/src/sha512_wiki.c > CMakeFiles/md5.dir/src/sha512_wiki.c.i
+
+CMakeFiles/md5.dir/src/sha512_wiki.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/sha512_wiki.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/src/sha512_wiki.c -o CMakeFiles/md5.dir/src/sha512_wiki.c.s
+
+CMakeFiles/md5.dir/src/sha512_logic.c.o: CMakeFiles/md5.dir/flags.make
+CMakeFiles/md5.dir/src/sha512_logic.c.o: ../src/sha512_logic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/md5.dir/src/sha512_logic.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/sha512_logic.c.o   -c /Users/mponomar/Projects/ft_ssl/src/sha512_logic.c
+
+CMakeFiles/md5.dir/src/sha512_logic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/sha512_logic.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/src/sha512_logic.c > CMakeFiles/md5.dir/src/sha512_logic.c.i
+
+CMakeFiles/md5.dir/src/sha512_logic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/sha512_logic.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/src/sha512_logic.c -o CMakeFiles/md5.dir/src/sha512_logic.c.s
+
+CMakeFiles/md5.dir/src/sha224_wiki.c.o: CMakeFiles/md5.dir/flags.make
+CMakeFiles/md5.dir/src/sha224_wiki.c.o: ../src/sha224_wiki.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/md5.dir/src/sha224_wiki.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/sha224_wiki.c.o   -c /Users/mponomar/Projects/ft_ssl/src/sha224_wiki.c
+
+CMakeFiles/md5.dir/src/sha224_wiki.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/sha224_wiki.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/src/sha224_wiki.c > CMakeFiles/md5.dir/src/sha224_wiki.c.i
+
+CMakeFiles/md5.dir/src/sha224_wiki.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/sha224_wiki.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/src/sha224_wiki.c -o CMakeFiles/md5.dir/src/sha224_wiki.c.s
+
+CMakeFiles/md5.dir/src/sha224_logic.c.o: CMakeFiles/md5.dir/flags.make
+CMakeFiles/md5.dir/src/sha224_logic.c.o: ../src/sha224_logic.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/md5.dir/src/sha224_logic.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/sha224_logic.c.o   -c /Users/mponomar/Projects/ft_ssl/src/sha224_logic.c
+
+CMakeFiles/md5.dir/src/sha224_logic.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/sha224_logic.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/src/sha224_logic.c > CMakeFiles/md5.dir/src/sha224_logic.c.i
+
+CMakeFiles/md5.dir/src/sha224_logic.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/sha224_logic.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/src/sha224_logic.c -o CMakeFiles/md5.dir/src/sha224_logic.c.s
+
+CMakeFiles/md5.dir/src/print_sha.c.o: CMakeFiles/md5.dir/flags.make
+CMakeFiles/md5.dir/src/print_sha.c.o: ../src/print_sha.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/md5.dir/src/print_sha.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/md5.dir/src/print_sha.c.o   -c /Users/mponomar/Projects/ft_ssl/src/print_sha.c
+
+CMakeFiles/md5.dir/src/print_sha.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/md5.dir/src/print_sha.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/mponomar/Projects/ft_ssl/src/print_sha.c > CMakeFiles/md5.dir/src/print_sha.c.i
+
+CMakeFiles/md5.dir/src/print_sha.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/md5.dir/src/print_sha.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/mponomar/Projects/ft_ssl/src/print_sha.c -o CMakeFiles/md5.dir/src/print_sha.c.s
 
 # Object files for target md5
 md5_OBJECTS = \
@@ -1136,7 +1201,12 @@ md5_OBJECTS = \
 "CMakeFiles/md5.dir/src/wiki_md5.c.o" \
 "CMakeFiles/md5.dir/src/md5_logic.c.o" \
 "CMakeFiles/md5.dir/src/sha256_wiki.c.o" \
-"CMakeFiles/md5.dir/src/sha256_logic.c.o"
+"CMakeFiles/md5.dir/src/sha256_logic.c.o" \
+"CMakeFiles/md5.dir/src/sha512_wiki.c.o" \
+"CMakeFiles/md5.dir/src/sha512_logic.c.o" \
+"CMakeFiles/md5.dir/src/sha224_wiki.c.o" \
+"CMakeFiles/md5.dir/src/sha224_logic.c.o" \
+"CMakeFiles/md5.dir/src/print_sha.c.o"
 
 # External object files for target md5
 md5_EXTERNAL_OBJECTS =
@@ -1218,9 +1288,14 @@ md5: CMakeFiles/md5.dir/src/wiki_md5.c.o
 md5: CMakeFiles/md5.dir/src/md5_logic.c.o
 md5: CMakeFiles/md5.dir/src/sha256_wiki.c.o
 md5: CMakeFiles/md5.dir/src/sha256_logic.c.o
+md5: CMakeFiles/md5.dir/src/sha512_wiki.c.o
+md5: CMakeFiles/md5.dir/src/sha512_logic.c.o
+md5: CMakeFiles/md5.dir/src/sha224_wiki.c.o
+md5: CMakeFiles/md5.dir/src/sha224_logic.c.o
+md5: CMakeFiles/md5.dir/src/print_sha.c.o
 md5: CMakeFiles/md5.dir/build.make
 md5: CMakeFiles/md5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Linking C executable md5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Linking C executable md5"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/md5.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1233,6 +1308,6 @@ CMakeFiles/md5.dir/clean:
 .PHONY : CMakeFiles/md5.dir/clean
 
 CMakeFiles/md5.dir/depend:
-	cd /Users/mponomar/projects/ft_ssl/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mponomar/projects/ft_ssl /Users/mponomar/projects/ft_ssl /Users/mponomar/projects/ft_ssl/cmake-build-debug /Users/mponomar/projects/ft_ssl/cmake-build-debug /Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles/md5.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/mponomar/Projects/ft_ssl/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mponomar/Projects/ft_ssl /Users/mponomar/Projects/ft_ssl /Users/mponomar/Projects/ft_ssl/cmake-build-debug /Users/mponomar/Projects/ft_ssl/cmake-build-debug /Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles/md5.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/md5.dir/depend
 

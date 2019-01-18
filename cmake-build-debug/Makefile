@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mponomar/projects/ft_ssl
+CMAKE_SOURCE_DIR = /Users/mponomar/Projects/ft_ssl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mponomar/projects/ft_ssl/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mponomar/Projects/ft_ssl/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles /Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles /Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -2121,6 +2121,87 @@ src/print.c.s:
 	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/print.c.s
 .PHONY : src/print.c.s
 
+src/print_sha.o: src/print_sha.c.o
+
+.PHONY : src/print_sha.o
+
+# target to build an object file
+src/print_sha.c.o:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/print_sha.c.o
+.PHONY : src/print_sha.c.o
+
+src/print_sha.i: src/print_sha.c.i
+
+.PHONY : src/print_sha.i
+
+# target to preprocess a source file
+src/print_sha.c.i:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/print_sha.c.i
+.PHONY : src/print_sha.c.i
+
+src/print_sha.s: src/print_sha.c.s
+
+.PHONY : src/print_sha.s
+
+# target to generate assembly for a file
+src/print_sha.c.s:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/print_sha.c.s
+.PHONY : src/print_sha.c.s
+
+src/sha224_logic.o: src/sha224_logic.c.o
+
+.PHONY : src/sha224_logic.o
+
+# target to build an object file
+src/sha224_logic.c.o:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha224_logic.c.o
+.PHONY : src/sha224_logic.c.o
+
+src/sha224_logic.i: src/sha224_logic.c.i
+
+.PHONY : src/sha224_logic.i
+
+# target to preprocess a source file
+src/sha224_logic.c.i:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha224_logic.c.i
+.PHONY : src/sha224_logic.c.i
+
+src/sha224_logic.s: src/sha224_logic.c.s
+
+.PHONY : src/sha224_logic.s
+
+# target to generate assembly for a file
+src/sha224_logic.c.s:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha224_logic.c.s
+.PHONY : src/sha224_logic.c.s
+
+src/sha224_wiki.o: src/sha224_wiki.c.o
+
+.PHONY : src/sha224_wiki.o
+
+# target to build an object file
+src/sha224_wiki.c.o:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha224_wiki.c.o
+.PHONY : src/sha224_wiki.c.o
+
+src/sha224_wiki.i: src/sha224_wiki.c.i
+
+.PHONY : src/sha224_wiki.i
+
+# target to preprocess a source file
+src/sha224_wiki.c.i:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha224_wiki.c.i
+.PHONY : src/sha224_wiki.c.i
+
+src/sha224_wiki.s: src/sha224_wiki.c.s
+
+.PHONY : src/sha224_wiki.s
+
+# target to generate assembly for a file
+src/sha224_wiki.c.s:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha224_wiki.c.s
+.PHONY : src/sha224_wiki.c.s
+
 src/sha256_logic.o: src/sha256_logic.c.o
 
 .PHONY : src/sha256_logic.o
@@ -2174,6 +2255,60 @@ src/sha256_wiki.s: src/sha256_wiki.c.s
 src/sha256_wiki.c.s:
 	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha256_wiki.c.s
 .PHONY : src/sha256_wiki.c.s
+
+src/sha512_logic.o: src/sha512_logic.c.o
+
+.PHONY : src/sha512_logic.o
+
+# target to build an object file
+src/sha512_logic.c.o:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha512_logic.c.o
+.PHONY : src/sha512_logic.c.o
+
+src/sha512_logic.i: src/sha512_logic.c.i
+
+.PHONY : src/sha512_logic.i
+
+# target to preprocess a source file
+src/sha512_logic.c.i:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha512_logic.c.i
+.PHONY : src/sha512_logic.c.i
+
+src/sha512_logic.s: src/sha512_logic.c.s
+
+.PHONY : src/sha512_logic.s
+
+# target to generate assembly for a file
+src/sha512_logic.c.s:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha512_logic.c.s
+.PHONY : src/sha512_logic.c.s
+
+src/sha512_wiki.o: src/sha512_wiki.c.o
+
+.PHONY : src/sha512_wiki.o
+
+# target to build an object file
+src/sha512_wiki.c.o:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha512_wiki.c.o
+.PHONY : src/sha512_wiki.c.o
+
+src/sha512_wiki.i: src/sha512_wiki.c.i
+
+.PHONY : src/sha512_wiki.i
+
+# target to preprocess a source file
+src/sha512_wiki.c.i:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha512_wiki.c.i
+.PHONY : src/sha512_wiki.c.i
+
+src/sha512_wiki.s: src/sha512_wiki.c.s
+
+.PHONY : src/sha512_wiki.s
+
+# target to generate assembly for a file
+src/sha512_wiki.c.s:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha512_wiki.c.s
+.PHONY : src/sha512_wiki.c.s
 
 src/wiki_md5.o: src/wiki_md5.c.o
 
@@ -2433,12 +2568,27 @@ help:
 	@echo "... src/print.o"
 	@echo "... src/print.i"
 	@echo "... src/print.s"
+	@echo "... src/print_sha.o"
+	@echo "... src/print_sha.i"
+	@echo "... src/print_sha.s"
+	@echo "... src/sha224_logic.o"
+	@echo "... src/sha224_logic.i"
+	@echo "... src/sha224_logic.s"
+	@echo "... src/sha224_wiki.o"
+	@echo "... src/sha224_wiki.i"
+	@echo "... src/sha224_wiki.s"
 	@echo "... src/sha256_logic.o"
 	@echo "... src/sha256_logic.i"
 	@echo "... src/sha256_logic.s"
 	@echo "... src/sha256_wiki.o"
 	@echo "... src/sha256_wiki.i"
 	@echo "... src/sha256_wiki.s"
+	@echo "... src/sha512_logic.o"
+	@echo "... src/sha512_logic.i"
+	@echo "... src/sha512_logic.s"
+	@echo "... src/sha512_wiki.o"
+	@echo "... src/sha512_wiki.i"
+	@echo "... src/sha512_wiki.s"
 	@echo "... src/wiki_md5.o"
 	@echo "... src/wiki_md5.i"
 	@echo "... src/wiki_md5.s"

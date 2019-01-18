@@ -29,7 +29,12 @@ CMP =	main.o \
         wiki_md5.o \
         md5_logic.o \
         sha256_wiki.o \
-        sha256_logic.o
+        sha256_logic.o \
+        sha512_wiki.o \
+        sha512_logic.o \
+        sha224_wiki.o \
+        sha224_logic.o \
+        print_sha.o
 
 all: $(NAME)
 
