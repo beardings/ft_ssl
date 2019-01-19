@@ -202,7 +202,7 @@ typedef struct				s_ssl
 	char					usage_f;
 	char					flags;
 	unsigned long			input_long[16];
-	unsigned char			input_char_long[128];
+	unsigned char			input_char_l[128];
 }							t_ssl;
 
 t_ssl						*init_struct(void);

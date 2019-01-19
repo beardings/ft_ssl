@@ -1,6 +1,14 @@
-//
-// Created by Mykola Ponomarov on 2019-01-14.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   sha256_wiki.c                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/01/19 20:47:55 by mponomar          #+#    #+#             */
+/*   Updated: 2019/01/19 20:48:33 by mponomar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "../includes/ft_ssl.h"
 
@@ -14,70 +22,70 @@
 
 void	third_st(unsigned int *sha256)
 {
-    int				i;
-    unsigned int	st1;
-    unsigned int	st2;
+	int				i;
+	unsigned int	st1;
+	unsigned int	st2;
 
-    i = 0;
-    while (i < 64)
-    {
-        st1 = sha256_hash[7] + BG1(sha256_hash[4]) +
-             CC(sha256_hash[4], sha256_hash[5], sha256_hash[6])
-             + sha256_table[i] + sha256[i];
-        st2 = BG0(sha256_hash[0]) +
-             M(sha256_hash[0], sha256_hash[1], sha256_hash[2]);
-        sha256_hash[7] = sha256_hash[6];
-        sha256_hash[6] = sha256_hash[5];
-        sha256_hash[5] = sha256_hash[4];
-        sha256_hash[4] = sha256_hash[3] + st1;
-        sha256_hash[3] = sha256_hash[2];
-        sha256_hash[2] = sha256_hash[1];
-        sha256_hash[1] = sha256_hash[0];
-        sha256_hash[0] = st1 + st2;
-        i++;
-    }
+	i = 0;
+	while (i < 64)
+	{
+		st1 = sha256_hash[7] + BG1(sha256_hash[4]) +
+			CC(sha256_hash[4], sha256_hash[5], sha256_hash[6])
+			+ sha256_table[i] + sha256[i];
+		st2 = BG0(sha256_hash[0]) +
+			M(sha256_hash[0], sha256_hash[1], sha256_hash[2]);
+		sha256_hash[7] = sha256_hash[6];
+		sha256_hash[6] = sha256_hash[5];
+		sha256_hash[5] = sha256_hash[4];
+		sha256_hash[4] = sha256_hash[3] + st1;
+		sha256_hash[3] = sha256_hash[2];
+		sha256_hash[2] = sha256_hash[1];
+		sha256_hash[1] = sha256_hash[0];
+		sha256_hash[0] = st1 + st2;
+		i++;
+	}
 }
 
 void	secont_st(unsigned int *sha256)
 {
-    unsigned int	copy[8];
-    int				i;
+	unsigned int	copy[8];
+	int				i;
 
-    i = 0;
-    while (i < 8)
-    {
-        copy[i] = sha256_hash[i];
-        i++;
-    }
-    third_st(sha256);
-    i = 0;
-    while (i < 8)
-    {
-        sha256_hash[i] = copy[i] + sha256_hash[i];
-        i++;
-    }
+	i = 0;
+	while (i < 8)
+	{
+		copy[i] = sha256_hash[i];
+		i++;
+	}
+	third_st(sha256);
+	i = 0;
+	while (i < 8)
+	{
+		sha256_hash[i] = copy[i] + sha256_hash[i];
+		i++;
+	}
 }
 
 void	first_st(t_ssl *ssl, unsigned int *sha256)
 {
-    int i;
+	int				i;
 
-    i = -1;
-    while (++i < 16)
-        sha256[i] = reverse_b(ssl->input_int[i], 4);
-    while (i < 64)
-    {
-        sha256[i] = SG1(sha256[i - 2]) + sha256[i - 7] +
-                    SG0(sha256[i - 15]) + sha256[i - 16];
-        ++i;
-    }
+	i = -1;
+	while (++i < 16)
+		sha256[i] = reverse_b(ssl->input_int[i], 4);
+	while (i < 64)
+	{
+		sha256[i] = SG1(sha256[i - 2]) + sha256[i - 7] +
+			SG0(sha256[i - 15]) + sha256[i - 16];
+		++i;
+	}
 }
 
 void	sha256_wiki(t_ssl *ssl)
 {
-    unsigned int sha256[64];
+	unsigned int	sha256[64];
 
-    ft_bzero(&sha256[0], 64);
-    first_st(ssl, &sha256[0]);
-    secont_st(&sha256[0]);
+	ft_bzero(&sha256[0], 64);
+	first_st(ssl, &sha256[0]);
+	secont_st(&sha256[0]);
 }
