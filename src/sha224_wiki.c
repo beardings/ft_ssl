@@ -29,19 +29,19 @@ static void	third_st(unsigned int *sha224)
 	i = 0;
 	while (i < 64)
 	{
-		st1 = sha224_hash[7] + BG1(sha224_hash[4]) +
-			CC(sha224_hash[4], sha224_hash[5], sha224_hash[6])
-			+ sha224_table[i] + sha224[i];
-		st2 = BG0(sha224_hash[0]) +
-			M(sha224_hash[0], sha224_hash[1], sha224_hash[2]);
-		sha224_hash[7] = sha224_hash[6];
-		sha224_hash[6] = sha224_hash[5];
-		sha224_hash[5] = sha224_hash[4];
-		sha224_hash[4] = sha224_hash[3] + st1;
-		sha224_hash[3] = sha224_hash[2];
-		sha224_hash[2] = sha224_hash[1];
-		sha224_hash[1] = sha224_hash[0];
-		sha224_hash[0] = st1 + st2;
+		st1 = g_sha224_hash[7] + BG1(g_sha224_hash[4]) +
+			CC(g_sha224_hash[4], g_sha224_hash[5], g_sha224_hash[6])
+			+ g_sha224_table[i] + sha224[i];
+		st2 = BG0(g_sha224_hash[0]) +
+			M(g_sha224_hash[0], g_sha224_hash[1], g_sha224_hash[2]);
+		g_sha224_hash[7] = g_sha224_hash[6];
+		g_sha224_hash[6] = g_sha224_hash[5];
+		g_sha224_hash[5] = g_sha224_hash[4];
+		g_sha224_hash[4] = g_sha224_hash[3] + st1;
+		g_sha224_hash[3] = g_sha224_hash[2];
+		g_sha224_hash[2] = g_sha224_hash[1];
+		g_sha224_hash[1] = g_sha224_hash[0];
+		g_sha224_hash[0] = st1 + st2;
 		i++;
 	}
 }
@@ -54,14 +54,14 @@ static void	secont_st(unsigned int *sha224)
 	i = 0;
 	while (i < 8)
 	{
-		copy[i] = sha224_hash[i];
+		copy[i] = g_sha224_hash[i];
 		i++;
 	}
 	third_st(sha224);
 	i = 0;
 	while (i < 8)
 	{
-		sha224_hash[i] = copy[i] + sha224_hash[i];
+		g_sha224_hash[i] = copy[i] + g_sha224_hash[i];
 		i++;
 	}
 }

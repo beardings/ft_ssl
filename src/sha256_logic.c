@@ -42,7 +42,7 @@ static void	last_step(t_ssl *ssl, int i, int n)
 		double_line(ssl);
 	i = -1;
 	while (++i < 8)
-		sha256_hash[i] = reverse_b(sha256_hash[i], 4);
+		g_sha256_hash[i] = reverse_b(g_sha256_hash[i], 4);
 	print_sha256(ssl);
 	ft_bzero(&ssl->input_char[0], 64);
 	ft_bzero(&ssl->input_int[0], 64);

@@ -12,41 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97c2c310-7123-4ddb-ab38-29821ef5b1bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/custom_functions.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sha384_logic.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sha384_wiki.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/md5.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/md5.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/md5.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/md5.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/md5.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/md5.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/md5.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/md5.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/md5.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/md5.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/md5.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/md5.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/md5.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/md5.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/md5.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/md5.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/md5.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/md5.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/ft_ssl.h" beforeDir="false" afterPath="$PROJECT_DIR$/includes/ft_ssl.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/custom_func.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/custom_func.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/initdata.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/initdata.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/print.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/print.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/print_sha.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/print_sha.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sha224_logic.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/sha224_logic.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sha224_wiki.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/sha224_wiki.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sha256_logic.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/sha256_logic.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sha256_wiki.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/sha256_wiki.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sha512_logic.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/sha512_logic.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sha512_wiki.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/sha512_wiki.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,92 +33,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sha384_logic.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/custom_func.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="525">
-                  <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/sha256_logic.c">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-23">
-                  <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sha224_wiki.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="563">
-                  <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sha256_wiki.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="562">
-                  <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/wiki_md5.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="667">
-                  <caret line="103" column="10" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/print_sha.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sha512_wiki.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="990">
-                  <caret line="66" selection-start-line="66" selection-end-line="66" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sha512_logic.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-111">
-                  <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="31" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sha224_logic.c">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="305">
-                  <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
+                <state relative-caret-position="-60">
+                  <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -157,8 +49,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/includes/ft_ssl.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2005">
-                  <caret line="260" column="2" lean-forward="true" selection-start-line="260" selection-start-column="2" selection-end-line="260" selection-end-column="2" />
+                <state relative-caret-position="484">
+                  <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
                   <folding>
                     <element signature="e#928#963#0" expanded="true" />
                   </folding>
@@ -206,6 +98,8 @@
       <find>g_hash_sha256</find>
       <find>input_int</find>
       <find>sha512</find>
+      <find>input_char_l</find>
+      <find>input_char_long</find>
     </findStrings>
     <replaceStrings>
       <replace>MD5T</replace>
@@ -219,6 +113,7 @@
       <replace>sha256_hash</replace>
       <replace>input_long</replace>
       <replace>sha384</replace>
+      <replace>input_char_l</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -233,24 +128,24 @@
         <option value="$PROJECT_DIR$/src/console.c" />
         <option value="$PROJECT_DIR$/libft/libft/ft_strlen.c" />
         <option value="$PROJECT_DIR$/src/sha256_logic.cpp" />
-        <option value="$PROJECT_DIR$/src/parsing.c" />
         <option value="$PROJECT_DIR$/src/custom_functions.c" />
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/src/initdata.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/src/main.c" />
         <option value="$PROJECT_DIR$/src/print.c" />
-        <option value="$PROJECT_DIR$/includes/ft_ssl.h" />
         <option value="$PROJECT_DIR$/src/print_sha.c" />
         <option value="$PROJECT_DIR$/src/sha384_wiki.c" />
-        <option value="$PROJECT_DIR$/src/sha384_logic.c" />
-        <option value="$PROJECT_DIR$/src/sha512_wiki.c" />
         <option value="$PROJECT_DIR$/src/sha224_logic.c" />
-        <option value="$PROJECT_DIR$/src/sha512_logic.c" />
         <option value="$PROJECT_DIR$/src/custom_func.c" />
         <option value="$PROJECT_DIR$/src/sha256_logic.c" />
         <option value="$PROJECT_DIR$/src/sha224_wiki.c" />
         <option value="$PROJECT_DIR$/src/sha256_wiki.c" />
+        <option value="$PROJECT_DIR$/src/sha512_wiki.c" />
+        <option value="$PROJECT_DIR$/src/parsing.c" />
+        <option value="$PROJECT_DIR$/src/main.c" />
+        <option value="$PROJECT_DIR$/src/sha384_logic.c" />
+        <option value="$PROJECT_DIR$/src/sha512_logic.c" />
+        <option value="$PROJECT_DIR$/includes/ft_ssl.h" />
       </list>
     </option>
   </component>
@@ -346,7 +241,7 @@
       <workItem from="1547304443813" duration="9473000" />
       <workItem from="1547485487283" duration="7841000" />
       <workItem from="1547913446994" duration="393000" />
-      <workItem from="1547914028663" duration="7014000" />
+      <workItem from="1547914028663" duration="8385000" />
     </task>
     <task id="LOCAL-00001" summary="work with console">
       <created>1546541865436</created>
@@ -369,11 +264,25 @@
       <option name="project" value="LOCAL" />
       <updated>1547496016981</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sha512 finished, work with 384 and norminette">
+      <created>1547922000464</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1547922000464</updated>
+    </task>
+    <task id="LOCAL-00005" summary="norminette src finished">
+      <created>1547924190137</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1547924190137</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45128000" />
+    <option name="totallyTimeSpent" value="46499000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -386,6 +295,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.111199364" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -394,7 +304,7 @@
       <window_info anchor="bottom" id="CMake" order="1" weight="0.35766423" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.329927" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" visible="true" weight="0.329927" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.34890512" />
       <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
@@ -402,7 +312,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3240876" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.15328467" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -438,7 +348,9 @@
     <MESSAGE value="work with console" />
     <MESSAGE value="md5 finished" />
     <MESSAGE value="sha256 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="sha256 finished" />
+    <MESSAGE value="sha512 finished, work with 384 and norminette" />
+    <MESSAGE value="norminette src finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="norminette src finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -447,11 +359,6 @@
           <url>file://$PROJECT_DIR$/libft/libft/ft_strcmp.c</url>
           <line>16</line>
           <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/src/console.c</url>
-          <line>79</line>
-          <option name="timeStamp" value="45" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -542,27 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/md5_logic.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/console.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parsing.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libft/libft/ft_memset.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -605,13 +491,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/print.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="622">
@@ -626,52 +505,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sha384_logic.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sha224_logic.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
-          <caret line="36" column="34" lean-forward="true" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sha512_wiki.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sha512_logic.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="30" column="16" lean-forward="true" selection-start-line="30" selection-start-column="16" selection-end-line="31" selection-end-column="18" />
+          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/custom_func.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sha256_logic.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sha224_wiki.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="563">
-          <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+        <state relative-caret-position="645">
+          <caret line="43" column="22" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -684,22 +528,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wiki_md5.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="103" column="10" selection-start-line="103" selection-start-column="10" selection-end-line="103" selection-end-column="10" />
+        <state relative-caret-position="772">
+          <caret line="110" column="10" selection-start-line="110" selection-start-column="10" selection-end-line="110" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/print_sha.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        <state relative-caret-position="660">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/console.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parsing.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="117" column="1" selection-start-line="117" selection-start-column="1" selection-end-line="117" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/md5_logic.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sha224_wiki.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sha512_logic.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="95" column="38" selection-start-line="95" selection-start-column="38" selection-end-line="95" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sha384_logic.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sha512_wiki.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sha256_logic.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/ft_ssl.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2005">
-          <caret line="260" column="2" lean-forward="true" selection-start-line="260" selection-start-column="2" selection-end-line="260" selection-end-column="2" />
+        <state relative-caret-position="484">
+          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
           <folding>
             <element signature="e#928#963#0" expanded="true" />
           </folding>

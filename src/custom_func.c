@@ -28,7 +28,7 @@ void				read_again(t_ssl *ssl)
 		ssl->str = ft_strjoin(ssl->str, buf);
 		free(tmp);
 	}
-	ssl_func[((int)ssl->comand * 2) - 1](ssl);
+	g_ssl_func[((int)ssl->comand * 2) - 1](ssl);
 }
 
 unsigned int		reverse_b(const unsigned int x, const char bytes)

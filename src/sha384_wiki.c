@@ -29,19 +29,19 @@ static void	third_st(unsigned long *sha384)
 	i = 0;
 	while (i < 80)
 	{
-		st1 = sha384_hash[7] + BG1(sha384_hash[4]) +
-			CC(sha384_hash[4], sha384_hash[5], sha384_hash[6])
-			+ sha384_table[i] + sha384[i];
-		st2 = BG0(sha384_hash[0]) +
-			M(sha384_hash[0], sha384_hash[1], sha384_hash[2]);
-		sha384_hash[7] = sha384_hash[6];
-		sha384_hash[6] = sha384_hash[5];
-		sha384_hash[5] = sha384_hash[4];
-		sha384_hash[4] = sha384_hash[3] + st1;
-		sha384_hash[3] = sha384_hash[2];
-		sha384_hash[2] = sha384_hash[1];
-		sha384_hash[1] = sha384_hash[0];
-		sha384_hash[0] = st1 + st2;
+		st1 = g_sha384_hash[7] + BG1(g_sha384_hash[4]) +
+			CC(g_sha384_hash[4], g_sha384_hash[5], g_sha384_hash[6])
+			+ g_sha384_table[i] + sha384[i];
+		st2 = BG0(g_sha384_hash[0]) +
+			M(g_sha384_hash[0], g_sha384_hash[1], g_sha384_hash[2]);
+		g_sha384_hash[7] = g_sha384_hash[6];
+		g_sha384_hash[6] = g_sha384_hash[5];
+		g_sha384_hash[5] = g_sha384_hash[4];
+		g_sha384_hash[4] = g_sha384_hash[3] + st1;
+		g_sha384_hash[3] = g_sha384_hash[2];
+		g_sha384_hash[2] = g_sha384_hash[1];
+		g_sha384_hash[1] = g_sha384_hash[0];
+		g_sha384_hash[0] = st1 + st2;
 		i++;
 	}
 }
@@ -54,14 +54,14 @@ static void	secont_st(unsigned long *sha384)
 	i = 0;
 	while (i < 8)
 	{
-		copy[i] = sha384_hash[i];
+		copy[i] = g_sha384_hash[i];
 		i++;
 	}
 	third_st(sha384);
 	i = 0;
 	while (i < 8)
 	{
-		sha384_hash[i] = copy[i] + sha384_hash[i];
+		g_sha384_hash[i] = copy[i] + g_sha384_hash[i];
 		i++;
 	}
 }

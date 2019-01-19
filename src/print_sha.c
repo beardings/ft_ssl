@@ -22,7 +22,7 @@ void	print_md5(t_ssl *ssl)
 	i = 0;
 	while (i < 4)
 	{
-		rev = reverse_b(md5_hash[i], 4);
+		rev = reverse_b(g_md5_hash[i], 4);
 		hex = i_base(rev, 16);
 		ft_memcpy(&tmp[i * 8], hex, 8);
 		free(hex);
@@ -42,7 +42,7 @@ void	print_sha256(t_ssl *ssl)
 	i = 0;
 	while (i < 8)
 	{
-		rev = reverse_b(sha256_hash[i], 4);
+		rev = reverse_b(g_sha256_hash[i], 4);
 		hex = i_base(rev, 16);
 		ft_memcpy(&tmp[i * 8], hex, 8);
 		free(hex);
@@ -62,7 +62,7 @@ void	print_sha224(t_ssl *ssl)
 	i = 0;
 	while (i < 7)
 	{
-		rev = reverse_b(sha224_hash[i], 4);
+		rev = reverse_b(g_sha224_hash[i], 4);
 		hex = i_base(rev, 16);
 		ft_memcpy(&tmp[i * 8], hex, 8);
 		free(hex);
@@ -82,7 +82,7 @@ void	print_sha512(t_ssl *ssl)
 	i = 0;
 	while (i < 8)
 	{
-		rev = reverse_bl(sha512_hash[i], 8);
+		rev = reverse_bl(g_sha512_hash[i], 8);
 		hex = base_long(rev, 16);
 		ft_memcpy(&tmp[i * 16], hex, 16);
 		free(hex);
@@ -102,7 +102,7 @@ void	print_sha384(t_ssl *ssl)
 	i = 0;
 	while (i < 6)
 	{
-		rev = reverse_bl(sha384_table[i], 8);
+		rev = reverse_bl(g_sha384_table[i], 8);
 		hex = base_long(rev, 16);
 		ft_memcpy(&tmp[i * 16], hex, 16);
 		free(hex);

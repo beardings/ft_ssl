@@ -29,19 +29,19 @@ static void	third_st(unsigned long *sha512)
 	i = 0;
 	while (i < 80)
 	{
-		st1 = sha512_hash[7] + BG1(sha512_hash[4]) +
-			CC(sha512_hash[4], sha512_hash[5], sha512_hash[6])
-			+ sha512_table[i] + sha512[i];
-		st2 = BG0(sha512_hash[0]) +
-			M(sha512_hash[0], sha512_hash[1], sha512_hash[2]);
-		sha512_hash[7] = sha512_hash[6];
-		sha512_hash[6] = sha512_hash[5];
-		sha512_hash[5] = sha512_hash[4];
-		sha512_hash[4] = sha512_hash[3] + st1;
-		sha512_hash[3] = sha512_hash[2];
-		sha512_hash[2] = sha512_hash[1];
-		sha512_hash[1] = sha512_hash[0];
-		sha512_hash[0] = st1 + st2;
+		st1 = g_sha512_hash[7] + BG1(g_sha512_hash[4]) +
+			CC(g_sha512_hash[4], g_sha512_hash[5], g_sha512_hash[6])
+			+ g_sha512_table[i] + sha512[i];
+		st2 = BG0(g_sha512_hash[0]) +
+			M(g_sha512_hash[0], g_sha512_hash[1], g_sha512_hash[2]);
+		g_sha512_hash[7] = g_sha512_hash[6];
+		g_sha512_hash[6] = g_sha512_hash[5];
+		g_sha512_hash[5] = g_sha512_hash[4];
+		g_sha512_hash[4] = g_sha512_hash[3] + st1;
+		g_sha512_hash[3] = g_sha512_hash[2];
+		g_sha512_hash[2] = g_sha512_hash[1];
+		g_sha512_hash[1] = g_sha512_hash[0];
+		g_sha512_hash[0] = st1 + st2;
 		i++;
 	}
 }
@@ -54,14 +54,14 @@ static void	secont_st(unsigned long *sha512)
 	i = 0;
 	while (i < 8)
 	{
-		copy[i] = sha512_hash[i];
+		copy[i] = g_sha512_hash[i];
 		i++;
 	}
 	third_st(sha512);
 	i = 0;
 	while (i < 8)
 	{
-		sha512_hash[i] = copy[i] + sha512_hash[i];
+		g_sha512_hash[i] = copy[i] + g_sha512_hash[i];
 		i++;
 	}
 }

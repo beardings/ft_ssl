@@ -35,7 +35,7 @@ void		check_comand(t_ssl *ssl, char *str)
 	i = 0;
 	while (i < COMANDS)
 	{
-		if (!strcmp(str, comands[i]))
+		if (!strcmp(str, g_comands[i]))
 		{
 			ssl->comand = i + 1;
 			return ;

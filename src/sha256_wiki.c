@@ -29,19 +29,19 @@ void	third_st(unsigned int *sha256)
 	i = 0;
 	while (i < 64)
 	{
-		st1 = sha256_hash[7] + BG1(sha256_hash[4]) +
-			CC(sha256_hash[4], sha256_hash[5], sha256_hash[6])
-			+ sha256_table[i] + sha256[i];
-		st2 = BG0(sha256_hash[0]) +
-			M(sha256_hash[0], sha256_hash[1], sha256_hash[2]);
-		sha256_hash[7] = sha256_hash[6];
-		sha256_hash[6] = sha256_hash[5];
-		sha256_hash[5] = sha256_hash[4];
-		sha256_hash[4] = sha256_hash[3] + st1;
-		sha256_hash[3] = sha256_hash[2];
-		sha256_hash[2] = sha256_hash[1];
-		sha256_hash[1] = sha256_hash[0];
-		sha256_hash[0] = st1 + st2;
+		st1 = g_sha256_hash[7] + BG1(g_sha256_hash[4]) +
+			CC(g_sha256_hash[4], g_sha256_hash[5], g_sha256_hash[6])
+			+ g_sha256_table[i] + sha256[i];
+		st2 = BG0(g_sha256_hash[0]) +
+			M(g_sha256_hash[0], g_sha256_hash[1], g_sha256_hash[2]);
+		g_sha256_hash[7] = g_sha256_hash[6];
+		g_sha256_hash[6] = g_sha256_hash[5];
+		g_sha256_hash[5] = g_sha256_hash[4];
+		g_sha256_hash[4] = g_sha256_hash[3] + st1;
+		g_sha256_hash[3] = g_sha256_hash[2];
+		g_sha256_hash[2] = g_sha256_hash[1];
+		g_sha256_hash[1] = g_sha256_hash[0];
+		g_sha256_hash[0] = st1 + st2;
 		i++;
 	}
 }
@@ -54,14 +54,14 @@ void	secont_st(unsigned int *sha256)
 	i = 0;
 	while (i < 8)
 	{
-		copy[i] = sha256_hash[i];
+		copy[i] = g_sha256_hash[i];
 		i++;
 	}
 	third_st(sha256);
 	i = 0;
 	while (i < 8)
 	{
-		sha256_hash[i] = copy[i] + sha256_hash[i];
+		g_sha256_hash[i] = copy[i] + g_sha256_hash[i];
 		i++;
 	}
 }

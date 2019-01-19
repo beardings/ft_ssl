@@ -6,7 +6,7 @@
 /*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/01/19 19:58:52 by mponomar          #+#    #+#             */
-/*   Updated: 2019/01/19 20:13:16 by mponomar         ###   ########.fr       */
+/*   Updated: 2019/01/19 21:00:29 by mponomar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,19 +26,19 @@
 # define R_FLAG 4
 # define Q_FLAG 8
 
-# define A md5_hash[0]
-# define B md5_hash[1]
-# define C md5_hash[2]
-# define D md5_hash[3]
-# define MD5T md5_table
+# define A g_md5_hash[0]
+# define B g_md5_hash[1]
+# define C g_md5_hash[2]
+# define D g_md5_hash[3]
+# define MD5T g_md5_table
 
-static char					*comands[COMANDS] = {
+static char					*g_comands[COMANDS] = {
 	"md5", "sha256", "sha512", "sha224", "sha384"
 };
 
-unsigned int				md5_hash[4];
+unsigned int				g_md5_hash[4];
 
-static const unsigned int	md5_table[64] = {
+static const unsigned int	g_md5_table[64] = {
 	0xd76aa478, 0xe8c7b756, 0x242070db, 0xc1bdceee,
 	0xf57c0faf, 0x4787c62a, 0xa8304613, 0xfd469501,
 	0x698098d8, 0x8b44f7af, 0xffff5bb1, 0x895cd7be,
@@ -57,9 +57,9 @@ static const unsigned int	md5_table[64] = {
 	0xf7537e82, 0xbd3af235, 0x2ad7d2bb, 0xeb86d391
 };
 
-unsigned int				sha256_hash[8];
+unsigned int				g_sha256_hash[8];
 
-static const unsigned int	sha256_table[64] = {
+static const unsigned int	g_sha256_table[64] = {
 	0x428A2F98, 0x71374491, 0xB5C0FBCF, 0xE9B5DBA5,
 	0x3956C25B, 0x59F111F1, 0x923F82A4, 0xAB1C5ED5,
 	0xD807AA98, 0x12835B01, 0x243185BE, 0x550C7DC3,
@@ -78,9 +78,9 @@ static const unsigned int	sha256_table[64] = {
 	0x90BEFFFA, 0xA4506CEB, 0xBEF9A3F7, 0xC67178F2
 };
 
-unsigned int				sha224_hash[8];
+unsigned int				g_sha224_hash[8];
 
-static const unsigned int	sha224_table[64] = {
+static const unsigned int	g_sha224_table[64] = {
 	0x428A2F98, 0x71374491, 0xB5C0FBCF, 0xE9B5DBA5,
 	0x3956C25B, 0x59F111F1, 0x923F82A4, 0xAB1C5ED5,
 	0xD807AA98, 0x12835B01, 0x243185BE, 0x550C7DC3,
@@ -99,9 +99,9 @@ static const unsigned int	sha224_table[64] = {
 	0x90BEFFFA, 0xA4506CEB, 0xBEF9A3F7, 0xC67178F2
 };
 
-unsigned long				sha512_hash[8];
+unsigned long				g_sha512_hash[8];
 
-static const unsigned long	sha512_table[80] = {
+static const unsigned long	g_sha512_table[80] = {
 	0x428a2f98d728ae22, 0x7137449123ef65cd,
 	0xb5c0fbcfec4d3b2f, 0xe9b5dba58189dbbc,
 	0x3956c25bf348b538, 0x59f111f1b605d019,
@@ -144,9 +144,9 @@ static const unsigned long	sha512_table[80] = {
 	0x5fcb6fab3ad6faec, 0x6c44198c4a475817
 };
 
-unsigned long				sha384_hash[8];
+unsigned long				g_sha384_hash[8];
 
-static const unsigned long	sha384_table[80] = {
+static const unsigned long	g_sha384_table[80] = {
 	0x428a2f98d728ae22, 0x7137449123ef65cd,
 	0xb5c0fbcfec4d3b2f, 0xe9b5dba58189dbbc,
 	0x3956c25bf348b538, 0x59f111f1b605d019,
@@ -255,7 +255,7 @@ void						read_again(t_ssl *ssl);
 void						swipe(unsigned long int *size);
 char						*base_long(unsigned long n, int base);
 
-static void					(*ssl_func[FUNCTIONS])(t_ssl *ssl) = {
+static void					(*g_ssl_func[FUNCTIONS])(t_ssl *ssl) = {
 	fd_md5, str_md5, fd_sha256, str_sha256, fd_sha512, str_sha512,
 	fd_sha224, str_sha224, fd_sha384, str_sha384
 };

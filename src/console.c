@@ -40,9 +40,9 @@ void		use_comand(t_ssl *ssl, char str)
 		if (ssl->comand == i + 1)
 		{
 			if (!str)
-				ssl_func[i * 2](ssl);
+				g_ssl_func[i * 2](ssl);
 			else
-				ssl_func[(i * 2) + 1](ssl);
+				g_ssl_func[(i * 2) + 1](ssl);
 			return ;
 		}
 		i++;

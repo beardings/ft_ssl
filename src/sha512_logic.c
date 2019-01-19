@@ -42,7 +42,7 @@ static void	last_step(t_ssl *ssl, int i, int n)
 		double_line(ssl);
 	i = -1;
 	while (++i < 8)
-		sha512_hash[i] = reverse_bl(sha512_hash[i], 8);
+		g_sha512_hash[i] = reverse_bl(g_sha512_hash[i], 8);
 	print_sha512(ssl);
 	ft_bzero(&ssl->input_char_l[0], 128);
 	ft_bzero(&ssl->input_long[0], 128);
