@@ -102,7 +102,7 @@ void	print_sha384(t_ssl *ssl)
 	i = 0;
 	while (i < 6)
 	{
-		rev = reverse_bl(g_sha384_table[i], 8);
+		rev = reverse_bl(g_sha384_hash[i], 8);
 		hex = base_long(rev, 16);
 		ft_memcpy(&tmp[i * 16], hex, 16);
 		free(hex);
