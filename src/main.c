@@ -12,14 +12,19 @@
 
 #include "../includes/ft_ssl.h"
 
-/*
-** -p : Читает из INPUT и выводит то что считал и хэш
-** -s : Читает следущий аргумент для хэширования
-** "MD5 ("text") = hash\n"
-** "SHA256 ("text") = hash\n"
-** -r : Вначале хэш, потом имя файла или текст
-** -q : Выводит только хэш и имеет приоритет перед
-*/
+void		print_error(char *str)
+{
+    ft_printf("ft_ssl: Error: '%s' is an invalid command.\n\n", str);
+    ft_printf("Standard commands:\n\n");
+    ft_printf("Message Digest commands:\nmd5\nsha256\n\n");
+    ft_printf("Cipher commands:\n");
+    exit(0);
+}
+
+void		print_usage(void)
+{
+    ft_printf("usage: ft_ssl command [command opts] [command args]\n");
+}
 
 int		main(int argc, char **argv)
 {

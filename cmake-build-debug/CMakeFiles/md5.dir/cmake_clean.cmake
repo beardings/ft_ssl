@@ -81,6 +81,9 @@ file(REMOVE_RECURSE
   "CMakeFiles/md5.dir/src/sha224_wiki.c.o"
   "CMakeFiles/md5.dir/src/sha224_logic.c.o"
   "CMakeFiles/md5.dir/src/print_sha.c.o"
+  "CMakeFiles/md5.dir/src/custom_functions.c.o"
+  "CMakeFiles/md5.dir/src/sha384_wiki.c.o"
+  "CMakeFiles/md5.dir/src/sha384_logic.c.o"
   "md5.pdb"
   "md5"
 )

@@ -1,5 +1,5 @@
 //
-// Created by Nikolas Ponomarov on 2019-01-16.
+// Created by Mykola Ponomarov on 2019-01-19.
 //
 
 #include "../includes/ft_ssl.h"
@@ -7,13 +7,13 @@
 static void	double_line(t_ssl *ssl)
 {
     ft_memcpy(&ssl->input_long[0], &ssl->input_char_long[0], 128);
-    sha512_wiki(ssl);
+    sha384_wiki(ssl);
     ft_bzero(&ssl->input_long[0], 128);
     ft_bzero(&ssl->input_char_long[0], 128);
     swipe(&ssl->size);
     ft_memcpy(&ssl->input_char_long[0] + 120, (char *)&ssl->size, 8);
     ft_memcpy(&ssl->input_long[0], &ssl->input_char_long[0], 128);
-    sha512_wiki(ssl);
+    sha384_wiki(ssl);
 }
 
 static void	line(t_ssl *ssl)
@@ -21,7 +21,7 @@ static void	line(t_ssl *ssl)
     swipe(&ssl->size);
     ft_memcpy(&ssl->input_char_long[0] + 120, (char *)&ssl->size, 8);
     ft_memcpy(&ssl->input_long[0], &ssl->input_char_long[0], 128);
-    sha512_wiki(ssl);
+    sha384_wiki(ssl);
 }
 
 static void	last_step(t_ssl *ssl, int i, int n)
@@ -34,14 +34,14 @@ static void	last_step(t_ssl *ssl, int i, int n)
         double_line(ssl);
     i = -1;
     while (++i < 8)
-        sha512_hash[i] = reverse_bl(sha512_hash[i], 8);
-    print_sha512(ssl);
+        sha384_hash[i] = reverse_bl(sha384_hash[i], 8);
+    print_sha384(ssl);
     ft_bzero(&ssl->input_char_long[0], 128);
     ft_bzero(&ssl->input_long[0], 128);
     ssl->size = 0;
 }
 
-void				fd_sha512(t_ssl *ssl)
+void				fd_sha384(t_ssl *ssl)
 {
     unsigned int	i;
     unsigned int	n;
@@ -60,7 +60,7 @@ void				fd_sha512(t_ssl *ssl)
         if (n < 128)
             continue ;
         ft_memcpy(&ssl->input_long[0], &ssl->input_char_long[0], 128);
-        sha512_wiki(ssl);
+        sha384_wiki(ssl);
         ft_bzero(&ssl->input_char_long[0], 128);
         ft_bzero(&ssl->input_long[0], 128);
         n = 0;
@@ -68,7 +68,7 @@ void				fd_sha512(t_ssl *ssl)
     last_step(ssl, i, n + i);
 }
 
-void				str_sha512(t_ssl *ssl)
+void				str_sha384(t_ssl *ssl)
 {
     unsigned int	i;
     unsigned int	n;
@@ -84,7 +84,7 @@ void				str_sha512(t_ssl *ssl)
             break ;
         ssl->size += i * 8;
         ft_memcpy(&ssl->input_long[0], &ssl->input_char_long[0], 128);
-        sha512_wiki(ssl);
+        sha384_wiki(ssl);
         ft_bzero(&ssl->input_char_long[0], 128);
         ft_bzero(&ssl->input_long[0], 128);
     }

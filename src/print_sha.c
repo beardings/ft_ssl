@@ -14,14 +14,14 @@ void	print_md5(t_ssl *ssl)
     i = 0;
     while (i < 4)
     {
-        rev = reverse_bytes(md5_hash[i], 4);
+        rev = reverse_b(md5_hash[i], 4);
         hex = i_base(rev, 16);
         ft_memcpy(&tmp[i * 8], hex, 8);
         free(hex);
         i++;
     }
     tmp[32] = '\0';
-    print_by_flags(ssl, &tmp[0], "MD5");
+    print_by_fl(ssl, &tmp[0], "MD5");
 }
 
 void	print_sha256(t_ssl *ssl)
@@ -34,14 +34,14 @@ void	print_sha256(t_ssl *ssl)
     i = 0;
     while (i < 8)
     {
-        rev = reverse_bytes(sha256_hash[i], 4);
+        rev = reverse_b(sha256_hash[i], 4);
         hex = i_base(rev, 16);
         ft_memcpy(&tmp[i * 8], hex, 8);
         free(hex);
         i++;
     }
     tmp[64] = '\0';
-    print_by_flags(ssl, &tmp[0], "SHA256");
+    print_by_fl(ssl, &tmp[0], "SHA256");
 }
 
 void	print_sha224(t_ssl *ssl)
@@ -54,14 +54,14 @@ void	print_sha224(t_ssl *ssl)
     i = 0;
     while (i < 7)
     {
-        rev = reverse_bytes(sha224_hash[i], 4);
+        rev = reverse_b(sha224_hash[i], 4);
         hex = i_base(rev, 16);
         ft_memcpy(&tmp[i * 8], hex, 8);
         free(hex);
         i++;
     }
     tmp[56] = '\0';
-    print_by_flags(ssl, &tmp[0], "SHA224");
+    print_by_fl(ssl, &tmp[0], "SHA224");
 }
 
 void	print_sha512(t_ssl *ssl)
@@ -74,12 +74,32 @@ void	print_sha512(t_ssl *ssl)
     i = 0;
     while (i < 8)
     {
-        rev = reverse_bytes_long(sha512_hash[i], 8);
-        hex = i_base(rev, 16);
+        rev = reverse_bl(sha512_hash[i], 8);
+        hex = base_long(rev, 16);
         ft_memcpy(&tmp[i * 16], hex, 16);
         free(hex);
         i++;
     }
     tmp[128] = '\0';
-    print_by_flags(ssl, &tmp[0], "SHA512");
+    print_by_fl(ssl, &tmp[0], "SHA512");
+}
+
+void	print_sha384(t_ssl *ssl)
+{
+    char			tmp[97];
+    char			*hex;
+    int				i;
+    unsigned long	rev;
+
+    i = 0;
+    while (i < 6)
+    {
+        rev = reverse_bl(sha384_table[i], 8);
+        hex = base_long(rev, 16);
+        ft_memcpy(&tmp[i * 16], hex, 16);
+        free(hex);
+        i++;
+    }
+    tmp[96] = '\0';
+    print_by_fl(ssl, &tmp[0], "SHA384");
 }

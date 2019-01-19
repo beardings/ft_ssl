@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/mponomar/Projects/ft_ssl/cmake-build-debug"/>
+				<Option working_dir="/Users/mponomar/projects/ft_ssl/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/mponomar/Projects/ft_ssl/cmake-build-debug"/>
+				<Option working_dir="/Users/mponomar/projects/ft_ssl/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/mponomar/Projects/ft_ssl/cmake-build-debug"/>
+				<Option working_dir="/Users/mponomar/projects/ft_ssl/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="md5">
-				<Option output="/Users/mponomar/Projects/ft_ssl/cmake-build-debug/md5" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mponomar/Projects/ft_ssl/cmake-build-debug"/>
+				<Option output="/Users/mponomar/projects/ft_ssl/cmake-build-debug/md5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mponomar/projects/ft_ssl/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 md5"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 md5"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="md5/fast">
-				<Option output="/Users/mponomar/Projects/ft_ssl/cmake-build-debug/md5" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mponomar/Projects/ft_ssl/cmake-build-debug"/>
+				<Option output="/Users/mponomar/projects/ft_ssl/cmake-build-debug/md5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mponomar/projects/ft_ssl/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -75,263 +75,272 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 md5/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/Projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 md5/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/mponomar/projects/ft_ssl/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/base.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/base.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_b.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_b.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_base.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_base.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_cont.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_cont.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_contn.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_contn.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_contnext.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_contnext.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_mod_next.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_mod_next.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_modnex.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_modnex.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_nnnnn.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_nnnnn.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/cast_standart_for_base.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/cast_standart_for_base.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/castflag_bigc.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/castflag_bigc.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/castflag_bigs.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/castflag_bigs.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/castflag_c.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/castflag_c.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/castflag_s.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/castflag_s.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/castpress_bigs.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/castpress_bigs.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/castpress_s.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/castpress_s.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/checkcan.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/checkcan.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/checktype.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/checktype.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/createres.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/createres.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/do_format.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/do_format.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/dowchar_t.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/dowchar_t.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/ft_itoa_base.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/ft_itoa_base.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/ft_null.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/ft_null.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/ft_printf.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/ft_printf.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/ft_printf.h">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/ft_printf.h">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/ft_putstrnew.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/ft_putstrnew.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/minusmissing.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/minusmissing.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/minuspresent.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/minuspresent.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/numnull.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/numnull.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/otherutf.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/otherutf.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/preox.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/preox.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/printhesh.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/printhesh.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/searcharg.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/searcharg.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/startformat.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/startformat.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/upperarg.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/upperarg.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/utflen.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/utflen.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/writepress.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/writepress.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/writewchar_t.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/writewchar_t.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/writewidth.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/writewidth.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/ft_printf/writezero.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/ft_printf/writezero.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/get_next_line/get_next_line.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/get_next_line/get_next_line.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_atoi.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_atoi.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_bzero.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_bzero.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_hz.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_hz.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_lenint.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_lenint.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_memalloc.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_memalloc.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_memccpy.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_memccpy.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_memcpy.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_memcpy.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_memset.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_memset.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_newsize.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_newsize.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_putchar.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_putchar.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_putchar_fd.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_putchar_fd.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_putnbr.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_putnbr.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_putnbr_fd.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_putnbr_fd.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_putstr.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_putstr.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_strcat.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_strcat.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_strchr.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_strchr.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_strclr.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_strclr.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_strcmp.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_strcmp.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_strcpy.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_strcpy.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_strdup.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_strdup.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_strjoin.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_strjoin.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_strlen.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_strlen.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_strncpy.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_strncpy.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_strnew.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_strnew.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_strsplit.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_strsplit.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/libft/libft/ft_strsub.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/libft/libft/ft_strsub.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/src/console.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/console.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/src/custom_func.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/custom_func.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/src/initdata.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/custom_functions.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/src/main.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/initdata.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/src/md5_logic.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/main.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/src/parsing.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/md5_logic.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/src/print.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/parsing.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/src/print_sha.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/print.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/src/sha224_logic.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/print_sha.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/src/sha224_wiki.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/sha224_logic.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/src/sha256_logic.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/sha224_wiki.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/src/sha256_wiki.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/sha256_logic.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/src/sha512_logic.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/sha256_wiki.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/src/sha512_wiki.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/sha384_logic.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/src/wiki_md5.c">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/sha384_wiki.c">
 			<Option target="md5"/>
 		</Unit>
-		<Unit filename="/Users/mponomar/Projects/ft_ssl/CMakeLists.txt">
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/sha512_logic.c">
+			<Option target="md5"/>
+		</Unit>
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/sha512_wiki.c">
+			<Option target="md5"/>
+		</Unit>
+		<Unit filename="/Users/mponomar/projects/ft_ssl/src/wiki_md5.c">
+			<Option target="md5"/>
+		</Unit>
+		<Unit filename="/Users/mponomar/projects/ft_ssl/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

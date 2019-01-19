@@ -64,7 +64,7 @@ static void	first_st(t_ssl *ssl, unsigned int *sha224)
 
     i = -1;
     while (++i < 16)
-        sha224[i] = reverse_bytes(ssl->input_int[i], 4);
+        sha224[i] = reverse_b(ssl->input_int[i], 4);
     while (i < 64)
     {
         sha224[i] = SG1(sha224[i - 2]) + sha224[i - 7] +

@@ -6,29 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/Users/mponomar/Projects/ft_ssl/includes/ft_ssl.h
+/Users/mponomar/projects/ft_ssl/includes/ft_ssl.h
 ../libft/header/libft.h
-/Users/mponomar/Projects/ft_ssl/libft/header/libft.h
+/Users/mponomar/projects/ft_ssl/libft/header/libft.h
 ../libft/header/ft_printf.h
-/Users/mponomar/Projects/ft_ssl/libft/header/ft_printf.h
+/Users/mponomar/projects/ft_ssl/libft/header/ft_printf.h
 ../libft/header/get_next_line.h
-/Users/mponomar/Projects/ft_ssl/libft/header/get_next_line.h
+/Users/mponomar/projects/ft_ssl/libft/header/get_next_line.h
 fcntl.h
 -
 
-/Users/mponomar/Projects/ft_ssl/libft/header/ft_printf.h
+/Users/mponomar/projects/ft_ssl/libft/header/ft_printf.h
 stdarg.h
 -
 libft.h
-/Users/mponomar/Projects/ft_ssl/libft/header/libft.h
+/Users/mponomar/projects/ft_ssl/libft/header/libft.h
 
-/Users/mponomar/Projects/ft_ssl/libft/header/get_next_line.h
+/Users/mponomar/projects/ft_ssl/libft/header/get_next_line.h
 fcntl.h
 -
 libft.h
-/Users/mponomar/Projects/ft_ssl/libft/header/libft.h
+/Users/mponomar/projects/ft_ssl/libft/header/libft.h
 
-/Users/mponomar/Projects/ft_ssl/libft/header/libft.h
+/Users/mponomar/projects/ft_ssl/libft/header/libft.h
 unistd.h
 -
 string.h
@@ -36,7 +36,15 @@ string.h
 stdlib.h
 -
 
-/Users/mponomar/Projects/ft_ssl/src/main.c
+/Users/mponomar/projects/ft_ssl/src/sha224_wiki.c
 ../includes/ft_ssl.h
-/Users/mponomar/Projects/ft_ssl/includes/ft_ssl.h
+/Users/mponomar/projects/ft_ssl/includes/ft_ssl.h
+
+/Users/mponomar/projects/ft_ssl/src/sha256_logic.c
+../includes/ft_ssl.h
+/Users/mponomar/projects/ft_ssl/includes/ft_ssl.h
+
+/Users/mponomar/projects/ft_ssl/src/sha256_wiki.c
+../includes/ft_ssl.h
+/Users/mponomar/projects/ft_ssl/includes/ft_ssl.h
 

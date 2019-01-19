@@ -34,7 +34,10 @@ CMP =	main.o \
         sha512_logic.o \
         sha224_wiki.o \
         sha224_logic.o \
-        print_sha.o
+        print_sha.o \
+        custom_functions.o \
+        sha384_wiki.o \
+        sha384_logic.o
 
 all: $(NAME)
 

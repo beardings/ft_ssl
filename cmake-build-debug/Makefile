@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/mponomar/Projects/ft_ssl
+CMAKE_SOURCE_DIR = /Users/mponomar/projects/ft_ssl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/mponomar/Projects/ft_ssl/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/mponomar/projects/ft_ssl/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles /Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles /Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mponomar/Projects/ft_ssl/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mponomar/projects/ft_ssl/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1986,6 +1986,33 @@ src/custom_func.c.s:
 	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/custom_func.c.s
 .PHONY : src/custom_func.c.s
 
+src/custom_functions.o: src/custom_functions.c.o
+
+.PHONY : src/custom_functions.o
+
+# target to build an object file
+src/custom_functions.c.o:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/custom_functions.c.o
+.PHONY : src/custom_functions.c.o
+
+src/custom_functions.i: src/custom_functions.c.i
+
+.PHONY : src/custom_functions.i
+
+# target to preprocess a source file
+src/custom_functions.c.i:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/custom_functions.c.i
+.PHONY : src/custom_functions.c.i
+
+src/custom_functions.s: src/custom_functions.c.s
+
+.PHONY : src/custom_functions.s
+
+# target to generate assembly for a file
+src/custom_functions.c.s:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/custom_functions.c.s
+.PHONY : src/custom_functions.c.s
+
 src/initdata.o: src/initdata.c.o
 
 .PHONY : src/initdata.o
@@ -2255,6 +2282,60 @@ src/sha256_wiki.s: src/sha256_wiki.c.s
 src/sha256_wiki.c.s:
 	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha256_wiki.c.s
 .PHONY : src/sha256_wiki.c.s
+
+src/sha384_logic.o: src/sha384_logic.c.o
+
+.PHONY : src/sha384_logic.o
+
+# target to build an object file
+src/sha384_logic.c.o:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha384_logic.c.o
+.PHONY : src/sha384_logic.c.o
+
+src/sha384_logic.i: src/sha384_logic.c.i
+
+.PHONY : src/sha384_logic.i
+
+# target to preprocess a source file
+src/sha384_logic.c.i:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha384_logic.c.i
+.PHONY : src/sha384_logic.c.i
+
+src/sha384_logic.s: src/sha384_logic.c.s
+
+.PHONY : src/sha384_logic.s
+
+# target to generate assembly for a file
+src/sha384_logic.c.s:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha384_logic.c.s
+.PHONY : src/sha384_logic.c.s
+
+src/sha384_wiki.o: src/sha384_wiki.c.o
+
+.PHONY : src/sha384_wiki.o
+
+# target to build an object file
+src/sha384_wiki.c.o:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha384_wiki.c.o
+.PHONY : src/sha384_wiki.c.o
+
+src/sha384_wiki.i: src/sha384_wiki.c.i
+
+.PHONY : src/sha384_wiki.i
+
+# target to preprocess a source file
+src/sha384_wiki.c.i:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha384_wiki.c.i
+.PHONY : src/sha384_wiki.c.i
+
+src/sha384_wiki.s: src/sha384_wiki.c.s
+
+.PHONY : src/sha384_wiki.s
+
+# target to generate assembly for a file
+src/sha384_wiki.c.s:
+	$(MAKE) -f CMakeFiles/md5.dir/build.make CMakeFiles/md5.dir/src/sha384_wiki.c.s
+.PHONY : src/sha384_wiki.c.s
 
 src/sha512_logic.o: src/sha512_logic.c.o
 
@@ -2553,6 +2634,9 @@ help:
 	@echo "... src/custom_func.o"
 	@echo "... src/custom_func.i"
 	@echo "... src/custom_func.s"
+	@echo "... src/custom_functions.o"
+	@echo "... src/custom_functions.i"
+	@echo "... src/custom_functions.s"
 	@echo "... src/initdata.o"
 	@echo "... src/initdata.i"
 	@echo "... src/initdata.s"
@@ -2583,6 +2667,12 @@ help:
 	@echo "... src/sha256_wiki.o"
 	@echo "... src/sha256_wiki.i"
 	@echo "... src/sha256_wiki.s"
+	@echo "... src/sha384_logic.o"
+	@echo "... src/sha384_logic.i"
+	@echo "... src/sha384_logic.s"
+	@echo "... src/sha384_wiki.o"
+	@echo "... src/sha384_wiki.i"
+	@echo "... src/sha384_wiki.s"
 	@echo "... src/sha512_logic.o"
 	@echo "... src/sha512_logic.i"
 	@echo "... src/sha512_logic.s"

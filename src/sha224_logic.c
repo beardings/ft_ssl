@@ -34,7 +34,7 @@ static void	last_step(t_ssl *ssl, int i, int n)
         double_line(ssl);
     i = -1;
     while (++i < 8)
-        sha224_hash[i] = reverse_bytes(sha224_hash[i], 4);
+        sha224_hash[i] = reverse_b(sha224_hash[i], 4);
     print_sha224(ssl);
     ft_bzero(&ssl->input_char[0], 64);
     ft_bzero(&ssl->input_int[0], 64);

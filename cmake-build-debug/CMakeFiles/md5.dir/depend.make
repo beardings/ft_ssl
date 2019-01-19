@@ -253,6 +253,12 @@ CMakeFiles/md5.dir/src/custom_func.c.o: ../libft/header/get_next_line.h
 CMakeFiles/md5.dir/src/custom_func.c.o: ../libft/header/libft.h
 CMakeFiles/md5.dir/src/custom_func.c.o: ../src/custom_func.c
 
+CMakeFiles/md5.dir/src/custom_functions.c.o: ../includes/ft_ssl.h
+CMakeFiles/md5.dir/src/custom_functions.c.o: ../libft/header/ft_printf.h
+CMakeFiles/md5.dir/src/custom_functions.c.o: ../libft/header/get_next_line.h
+CMakeFiles/md5.dir/src/custom_functions.c.o: ../libft/header/libft.h
+CMakeFiles/md5.dir/src/custom_functions.c.o: ../src/custom_functions.c
+
 CMakeFiles/md5.dir/src/initdata.c.o: ../includes/ft_ssl.h
 CMakeFiles/md5.dir/src/initdata.c.o: ../libft/header/ft_printf.h
 CMakeFiles/md5.dir/src/initdata.c.o: ../libft/header/get_next_line.h
@@ -283,6 +289,24 @@ CMakeFiles/md5.dir/src/print.c.o: ../libft/header/get_next_line.h
 CMakeFiles/md5.dir/src/print.c.o: ../libft/header/libft.h
 CMakeFiles/md5.dir/src/print.c.o: ../src/print.c
 
+CMakeFiles/md5.dir/src/print_sha.c.o: ../includes/ft_ssl.h
+CMakeFiles/md5.dir/src/print_sha.c.o: ../libft/header/ft_printf.h
+CMakeFiles/md5.dir/src/print_sha.c.o: ../libft/header/get_next_line.h
+CMakeFiles/md5.dir/src/print_sha.c.o: ../libft/header/libft.h
+CMakeFiles/md5.dir/src/print_sha.c.o: ../src/print_sha.c
+
+CMakeFiles/md5.dir/src/sha224_logic.c.o: ../includes/ft_ssl.h
+CMakeFiles/md5.dir/src/sha224_logic.c.o: ../libft/header/ft_printf.h
+CMakeFiles/md5.dir/src/sha224_logic.c.o: ../libft/header/get_next_line.h
+CMakeFiles/md5.dir/src/sha224_logic.c.o: ../libft/header/libft.h
+CMakeFiles/md5.dir/src/sha224_logic.c.o: ../src/sha224_logic.c
+
+CMakeFiles/md5.dir/src/sha224_wiki.c.o: ../includes/ft_ssl.h
+CMakeFiles/md5.dir/src/sha224_wiki.c.o: ../libft/header/ft_printf.h
+CMakeFiles/md5.dir/src/sha224_wiki.c.o: ../libft/header/get_next_line.h
+CMakeFiles/md5.dir/src/sha224_wiki.c.o: ../libft/header/libft.h
+CMakeFiles/md5.dir/src/sha224_wiki.c.o: ../src/sha224_wiki.c
+
 CMakeFiles/md5.dir/src/sha256_logic.c.o: ../includes/ft_ssl.h
 CMakeFiles/md5.dir/src/sha256_logic.c.o: ../libft/header/ft_printf.h
 CMakeFiles/md5.dir/src/sha256_logic.c.o: ../libft/header/get_next_line.h
@@ -294,6 +318,30 @@ CMakeFiles/md5.dir/src/sha256_wiki.c.o: ../libft/header/ft_printf.h
 CMakeFiles/md5.dir/src/sha256_wiki.c.o: ../libft/header/get_next_line.h
 CMakeFiles/md5.dir/src/sha256_wiki.c.o: ../libft/header/libft.h
 CMakeFiles/md5.dir/src/sha256_wiki.c.o: ../src/sha256_wiki.c
+
+CMakeFiles/md5.dir/src/sha384_logic.c.o: ../includes/ft_ssl.h
+CMakeFiles/md5.dir/src/sha384_logic.c.o: ../libft/header/ft_printf.h
+CMakeFiles/md5.dir/src/sha384_logic.c.o: ../libft/header/get_next_line.h
+CMakeFiles/md5.dir/src/sha384_logic.c.o: ../libft/header/libft.h
+CMakeFiles/md5.dir/src/sha384_logic.c.o: ../src/sha384_logic.c
+
+CMakeFiles/md5.dir/src/sha384_wiki.c.o: ../includes/ft_ssl.h
+CMakeFiles/md5.dir/src/sha384_wiki.c.o: ../libft/header/ft_printf.h
+CMakeFiles/md5.dir/src/sha384_wiki.c.o: ../libft/header/get_next_line.h
+CMakeFiles/md5.dir/src/sha384_wiki.c.o: ../libft/header/libft.h
+CMakeFiles/md5.dir/src/sha384_wiki.c.o: ../src/sha384_wiki.c
+
+CMakeFiles/md5.dir/src/sha512_logic.c.o: ../includes/ft_ssl.h
+CMakeFiles/md5.dir/src/sha512_logic.c.o: ../libft/header/ft_printf.h
+CMakeFiles/md5.dir/src/sha512_logic.c.o: ../libft/header/get_next_line.h
+CMakeFiles/md5.dir/src/sha512_logic.c.o: ../libft/header/libft.h
+CMakeFiles/md5.dir/src/sha512_logic.c.o: ../src/sha512_logic.c
+
+CMakeFiles/md5.dir/src/sha512_wiki.c.o: ../includes/ft_ssl.h
+CMakeFiles/md5.dir/src/sha512_wiki.c.o: ../libft/header/ft_printf.h
+CMakeFiles/md5.dir/src/sha512_wiki.c.o: ../libft/header/get_next_line.h
+CMakeFiles/md5.dir/src/sha512_wiki.c.o: ../libft/header/libft.h
+CMakeFiles/md5.dir/src/sha512_wiki.c.o: ../src/sha512_wiki.c
 
 CMakeFiles/md5.dir/src/wiki_md5.c.o: ../includes/ft_ssl.h
 CMakeFiles/md5.dir/src/wiki_md5.c.o: ../libft/header/ft_printf.h

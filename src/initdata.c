@@ -30,6 +30,15 @@ void    init_bonus_sha(void)
     sha224_hash[5] = 0x68581511;
     sha224_hash[6] = 0x64F98FA7;
     sha224_hash[7] = 0xBEFA4FA4;
+    sha384_hash[0] = 0xcbbb9d5dc1059ed8;
+    sha384_hash[1] = 0x629a292a367cd507;
+    sha384_hash[2] = 0x9159015a3070dd17;
+    sha384_hash[3] = 0x152fecd8f70e5939;
+    sha384_hash[4] = 0x67332667ffc00b31;
+    sha384_hash[5] = 0x8eb44a8768581511;
+    sha384_hash[6] = 0xdb0c2e0d64f98fa7;
+    sha384_hash[7] = 0x47b5481dbefa4fa4;
+
 }
 
 void	set_hashes(void)

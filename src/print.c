@@ -71,22 +71,7 @@ void        print_argument(t_ssl *ssl)
     print_usage();
 }
 
-void		print_error(char *str)
-{
-    ft_printf("ft_ssl: Error: '%s' is an invalid command.\n\n", str);
-    ft_printf("Standard commands:\n\n");
-    ft_printf("Message Digest commands:\nmd5\nsha256\n\n");
-    ft_printf("Cipher commands:\n");
-    exit(0);
-}
-
-void		print_usage(void)
-{
-    ft_printf("usage: ft_ssl command [command opts] [command args]\n");
-//    exit(0);
-}
-
-void print_by_flags(t_ssl *ssl, char *hash, char *comand)
+void print_by_fl(t_ssl *ssl, char *hash, char *comand)
 {
     if (!ssl->flags)
         ft_printf("%s\n", hash);
